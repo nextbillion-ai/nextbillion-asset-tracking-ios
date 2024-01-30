@@ -1,0 +1,340 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NBAssetTracking
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+import CoreMotion
+import Foundation
+import NBAssetDataCollectLib
+@_exported import NBAssetTracking
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AssetTrackingApiExceptionType : Swift.String {
+  case ASSET_TRACKING_ON
+  case UN_UPLOADED_LOCATION_DATA
+  case EMPTY_ASSET_ID
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LocationPermissionResult {
+  case LOCATION_SERVICE_OFF
+  case PERMISSION_ENABLED
+  case PERMISSION_NOT_ENABLED
+  public static func == (a: NBAssetTracking.LocationPermissionResult, b: NBAssetTracking.LocationPermissionResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias StringDictionary = [Swift.String : Swift.String]
+public typealias JSONDictionary = [Swift.String : Any]
+@objc @_hasMissingDesignatedInitializers open class AssetTrackingInfo : ObjectiveC.NSObject, Foundation.NSSecureCoding {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  final public let deviceId: Swift.String
+  final public let locationDataList: [NBAssetDataCollectLib.LocationData]
+  convenience public init(locationDataList: [NBAssetDataCollectLib.LocationData])
+  convenience public init(json: NBAssetTracking.JSONDictionary)
+  public func toJSONDictionary() -> NBAssetTracking.JSONDictionary
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class NBAssetTrackingService {
+  public typealias NBAssetTrackingServiceVoidCompletionHandler = (_ responseCode: Swift.Int, _ error: Foundation.NSError?) -> Swift.Void
+  public typealias NBAssetCreationCompletionHandler = (_ response: NBAssetTracking.AssetCreationResponse?, _ responseCode: Swift.Int, _ error: Foundation.NSError?) -> Swift.Void
+  public typealias NBGetAssetCompletionHandler = (_ response: NBAssetTracking.GetAssetResponse?, _ responseCode: Swift.Int, _ error: Foundation.NSError?) -> Swift.Void
+  @discardableResult
+  open func createAsset(baseUrl: Swift.String, requestParams: NBAssetTracking.StringDictionary, data: NBAssetTracking.JSONDictionary? = nil, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBAssetCreationCompletionHandler) -> Foundation.URLSessionDataTask
+  @discardableResult
+  open func getAssetDetail(baseUrl: Swift.String, assetId: Swift.String, requestParams: NBAssetTracking.StringDictionary, data: NBAssetTracking.JSONDictionary? = nil, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBGetAssetCompletionHandler) -> Foundation.URLSessionDataTask
+  @discardableResult
+  open func updateAsset(baseUrl: Swift.String, assetId: Swift.String, requestParams: NBAssetTracking.StringDictionary, data: NBAssetTracking.JSONDictionary? = nil, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBAssetTrackingServiceVoidCompletionHandler) -> Foundation.URLSessionDataTask
+  @discardableResult
+  open func bindAsset(baseUrl: Swift.String, assetId: Swift.String, requestParams: NBAssetTracking.StringDictionary, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBAssetTrackingServiceVoidCompletionHandler) -> Foundation.URLSessionDataTask
+  @discardableResult
+  open func locationDataUpload(baseUrl: Swift.String, assetId: Swift.String, requestParams: NBAssetTracking.StringDictionary, data: NBAssetTracking.JSONDictionary? = nil, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBAssetTrackingServiceVoidCompletionHandler) -> Foundation.URLSessionDataTask
+  @objc deinit
+}
+@objc open class AssetProfile : ObjectiveC.NSObject, Swift.Codable {
+  public init(customId: Swift.String, assetDescription: Swift.String, name: Swift.String, attributes: [Swift.String : Swift.String])
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class AssetError : Foundation.NSError {
+  public var errorCode: Swift.Int
+  public var message: Swift.String
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class NetworkError : NBAssetTracking.AssetError {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class UnreportedDataError : NBAssetTracking.AssetError {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class ServiceRunningDataError : NBAssetTracking.AssetError {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class EmptyAssetIdError : NBAssetTracking.AssetError {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers open class GetAssetResponse : ObjectiveC.NSObject, Swift.Codable {
+  final public let status: Swift.String
+  final public let message: Swift.String
+  final public let data: NBAssetTracking.GetAssetResponseData
+  convenience public init?(json: NBAssetTracking.JSONDictionary)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers open class GetAssetResponseData : ObjectiveC.NSObject, Swift.Codable {
+  final public let id: Swift.String
+  final public let deviceId: Swift.String
+  final public let name: Swift.String
+  final public let assetDescription: Swift.String
+  final public let createdAt: Swift.Double
+  final public let updatedAt: Swift.Double
+  final public let attributes: [Swift.String : Swift.String]
+  convenience public init(json: NBAssetTracking.JSONDictionary)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public protocol AssetTrackingCallback : ObjectiveC.NSObjectProtocol {
+  func onTrackingStart(assetId: Swift.String)
+  func onTrackingStop(assetId: Swift.String, trackingDisableType: NBAssetTracking.TrackingDisableType)
+  func onLocationSuccess(location: CoreLocation.CLLocation)
+  func onLocationFailure(error: any Swift.Error)
+  func onLocationServiceOff()
+}
+public protocol StationaryDetectionDelegate : AnyObject {
+  func onStatusUpdate(isMoving: Swift.Bool)
+  func onSensorUpdate(angularSpeed: Swift.Double?, acceleration: Swift.Double?, speed: Swift.Double?)
+}
+public protocol StationaryDetection {
+  var delegate: (any NBAssetTracking.StationaryDetectionDelegate)? { get set }
+  func attach()
+  func dettach()
+  func isSensorEnabled() -> Swift.Bool
+  func updateLocation(_ location: CoreLocation.CLLocation)
+}
+@_hasMissingDesignatedInitializers public class StationaryDetectionImpl : NBAssetTracking.StationaryDetection {
+  weak public var delegate: (any NBAssetTracking.StationaryDetectionDelegate)?
+  public init()
+  public func updateLocation(_ location: CoreLocation.CLLocation)
+  public func isSensorEnabled() -> Swift.Bool
+  public func attach()
+  public func dettach()
+  @objc deinit
+}
+@objc open class DataLog : ObjectiveC.NSObject, Foundation.NSSecureCoding {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  final public let apiMessage: Swift.String
+  final public let recordName: Swift.String
+  final public let assetId: Swift.String
+  final public let assetTrackingInfo: NBAssetTracking.AssetTrackingInfo
+  public init(apiMessage: Swift.String, recordName: Swift.String, assetId: Swift.String, assetTrackingInfo: NBAssetTracking.AssetTrackingInfo)
+  public func toJSONDictionary() -> NBAssetTracking.JSONDictionary
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct RingBuffer<T> {
+  public enum OverwriteOperation {
+    case ignore
+    case overwrite
+    public static func == (a: NBAssetTracking.RingBuffer<T>.OverwriteOperation, b: NBAssetTracking.RingBuffer<T>.OverwriteOperation) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var isFull: Swift.Bool {
+    get
+  }
+  public init(_ size: Swift.Int)
+  public init<S>(_ elements: S, capacity: Swift.Int) where T == S.Element, S : Swift.Sequence
+  public mutating func enQueue(_ element: T)
+  @discardableResult
+  public mutating func deQueue() -> T?
+  public func peek() -> T?
+  public mutating func first() -> T?
+  public func last() -> T?
+  public func toList() -> [T?]
+  public mutating func clear()
+}
+extension NBAssetTracking.RingBuffer : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension NBAssetTracking.RingBuffer : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: T...)
+  public typealias ArrayLiteralElement = T
+}
+extension NBAssetTracking.RingBuffer : Swift.Sequence {
+  public func makeIterator() -> Swift.AnyIterator<T?>
+  public typealias Element = T?
+  public typealias Iterator = Swift.AnyIterator<T?>
+}
+@objc @_hasMissingDesignatedInitializers open class AssetCreationResponse : ObjectiveC.NSObject {
+  final public let status: Swift.String
+  final public let data: NBAssetTracking.AssetCreationResponseData
+  convenience public init?(json: NBAssetTracking.JSONDictionary)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers open class AssetCreationResponseData : ObjectiveC.NSObject, Swift.Codable {
+  final public let id: Swift.String
+  convenience public init(json: NBAssetTracking.JSONDictionary)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers open class ApiErrorResponse : ObjectiveC.NSObject {
+  final public let status: Swift.String
+  final public let message: Swift.String
+  convenience public init(json: NBAssetTracking.JSONDictionary)
+  @objc deinit
+}
+public enum TrackingMode : Swift.Int, Swift.Codable {
+  case ACTIVE
+  case BALANCED
+  case PASSIVE
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc open class LocationConfig : ObjectiveC.NSObject, Swift.Codable {
+  final public let trackingMode: NBAssetTracking.TrackingMode?
+  final public let distanceFilter: CoreLocation.CLLocationDistance
+  final public let desiredAccuracy: CoreLocation.CLLocationAccuracy
+  final public let enableStationaryCheck: Swift.Bool
+  public init(trackingMode: NBAssetTracking.TrackingMode = .ACTIVE)
+  public init(distanceFilter: CoreLocation.CLLocationDistance = 0, desiredAccuracy: CoreLocation.CLLocationAccuracy = kCLLocationAccuracyBest, enableStationaryCheck: Swift.Bool = true)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers open class DataTrackingConfig : ObjectiveC.NSObject, Swift.Codable {
+  public var baseUrl: Swift.String
+  public var dataStorageSize: Swift.Int
+  public var dataUploadingBatchSize: Swift.Int
+  public var dataUploadingBatchWindow: Swift.Int
+  public var shouldClearLocalDataWhenCollision: Swift.Bool
+  public init(baseUrl: Swift.String, dataStorageSize: Swift.Int, dataUploadingBatchSize: Swift.Int, dataUploadingBatchWindow: Swift.Int, shouldClearLocalDataWhenCollision: Swift.Bool)
+  @objc convenience override dynamic public init()
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers open class AssetTracking : ObjectiveC.NSObject {
+  public static let shared: NBAssetTracking.AssetTracking
+  @objc override dynamic public init()
+  public var delegate: (any NBAssetTracking.AssetTrackingCallback)? {
+    get
+    set
+  }
+  open func initialize(apiKey: Swift.String)
+  open func startTracking()
+  open func stopTracking()
+  open func getApiKey() -> Swift.String
+  open func getAssetId() -> Swift.String
+  open func setLocationConfig(config: NBAssetTracking.LocationConfig)
+  open func updateLocationConfig(config: NBAssetTracking.LocationConfig)
+  open func getLocationConfig() -> NBAssetTracking.LocationConfig
+  open func setDataTrackingConfig(config: NBAssetTracking.DataTrackingConfig)
+  open func updateDataTrackingConfig(config: NBAssetTracking.DataTrackingConfig)
+  open func getDataTrackingConfig() -> NBAssetTracking.DataTrackingConfig
+  open func isRunning() -> Swift.Bool
+  open func setNotificationConfig(config: NBAssetTracking.NotificationConfig)
+  open func updateNotificationConfig(config: NBAssetTracking.NotificationConfig)
+  open func getNotificationConfig() -> NBAssetTracking.NotificationConfig
+  open func isAllowFakeGps() -> Swift.Bool
+  @available(iOS 15.0, *)
+  open func setAllowFakeGps(allow: Swift.Bool)
+  open func createAsset(baseUrl: Swift.String? = nil, assetProfile: NBAssetTracking.AssetProfile, completionHandler: @escaping (_ assetCreationResponse: NBAssetTracking.AssetCreationResponse) -> Swift.Void, errorHandler: @escaping (_ error: NBAssetTracking.AssetError) -> Swift.Void)
+  open func getAssetDetail(baseUrl: Swift.String? = nil, completionHandler: @escaping (_ assetCreationResponse: NBAssetTracking.GetAssetResponse) -> Swift.Void, errorHandler: @escaping (_ error: NBAssetTracking.AssetError) -> Swift.Void)
+  open func updateAsset(baseUrl: Swift.String? = nil, assetProfile: NBAssetTracking.AssetProfile, completionHandler: @escaping (_ responseCode: Swift.Int) -> Swift.Void, errorHandler: @escaping (_ error: NBAssetTracking.AssetError) -> Swift.Void)
+  open func bindAsset(baseUrl: Swift.String? = nil, assetId: Swift.String, completionHandler: @escaping (_ responseCode: Swift.Int) -> Swift.Void, errorHandler: @escaping (_ error: NBAssetTracking.AssetError) -> Swift.Void)
+  open func forceBindAsset(baseUrl: Swift.String? = nil, assetId: Swift.String, completionHandler: @escaping (_ responseCode: Swift.Int) -> Swift.Void, errorHandler: @escaping (_ error: NBAssetTracking.AssetError) -> Swift.Void)
+  @objc deinit
+}
+public enum TrackingDisableType {
+  case none
+  case normal
+  case assetIdTaken
+  public static func == (a: NBAssetTracking.TrackingDisableType, b: NBAssetTracking.TrackingDisableType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class NotificationConfig : ObjectiveC.NSObject, Swift.Codable {
+  public var assetEnableNotificationConfig: NBAssetTracking.AssetEnableNotificationConfig
+  public var assetDisableNotificationConfig: NBAssetTracking.AssetDisableNotificationConfig
+  public var lowBatteryNotificationConfig: NBAssetTracking.LowBatteryNotificationConfig
+  public var showAssetEnableNotification: Swift.Bool
+  public var showAssetDisableNotification: Swift.Bool
+  public var showLowBatteryNotification: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers open class DefaultAssetNotificationConfig : ObjectiveC.NSObject, Swift.Codable {
+  public var identifier: Swift.String
+  public var title: Swift.String
+  public var content: Swift.String
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AssetEnableNotificationConfig : NBAssetTracking.DefaultAssetNotificationConfig {
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AssetDisableNotificationConfig : NBAssetTracking.DefaultAssetNotificationConfig {
+  public var assetIDTrackedContent: Swift.String
+  override open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class LowBatteryNotificationConfig : NBAssetTracking.DefaultAssetNotificationConfig {
+  public var minBatteryLevel: Swift.Float
+  override open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+extension NBAssetTracking.AssetTrackingApiExceptionType : Swift.Equatable {}
+extension NBAssetTracking.AssetTrackingApiExceptionType : Swift.Hashable {}
+extension NBAssetTracking.AssetTrackingApiExceptionType : Swift.RawRepresentable {}
+extension NBAssetTracking.LocationPermissionResult : Swift.Equatable {}
+extension NBAssetTracking.LocationPermissionResult : Swift.Hashable {}
+extension NBAssetTracking.RingBuffer.OverwriteOperation : Swift.Equatable {}
+extension NBAssetTracking.RingBuffer.OverwriteOperation : Swift.Hashable {}
+extension NBAssetTracking.TrackingMode : Swift.Equatable {}
+extension NBAssetTracking.TrackingMode : Swift.Hashable {}
+extension NBAssetTracking.TrackingMode : Swift.RawRepresentable {}
+extension NBAssetTracking.TrackingDisableType : Swift.Equatable {}
+extension NBAssetTracking.TrackingDisableType : Swift.Hashable {}

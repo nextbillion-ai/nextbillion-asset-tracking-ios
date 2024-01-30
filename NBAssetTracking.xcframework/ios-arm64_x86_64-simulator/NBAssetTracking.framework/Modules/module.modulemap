@@ -1,0 +1,11 @@
+framework module NBAssetTracking {
+  umbrella header "NBAssetTracking.h"
+  export *
+
+  module * { export * }
+}
+
+module NBAssetTracking.Swift {
+  header "NBAssetTracking-Swift.h"
+  requires objc
+}

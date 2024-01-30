@@ -1,0 +1,5371 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetCollect",
+        "printedName": "AssetCollect",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0Pxycfc",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0Pxycfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "cacheCount",
+            "printedName": "cacheCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P10cacheCountSivp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P10cacheCountSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P10cacheCountSivg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P10cacheCountSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P10cacheCountSivs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P10cacheCountSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P10cacheCountSivM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P10cacheCountSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxCacheCount",
+            "printedName": "maxCacheCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P13maxCacheCountSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batchWindow",
+            "printedName": "batchWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P11batchWindowSivp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P11batchWindowSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P11batchWindowSivg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P11batchWindowSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P11batchWindowSivs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P11batchWindowSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P11batchWindowSivM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P11batchWindowSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetCollectDelegate",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                    "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetCollectDelegate",
+                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetCollectDelegate",
+                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvs",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC0P8delegateAA0eC8Delegate_pSgvM",
+                "moduleName": "NBAssetDataCollectLib",
+                "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+                "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P10initializeyyF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P10initializeyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(locationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocationData",
+                "printedName": "NBAssetDataCollectLib.LocationData",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P5write08locationB0yAA08LocationB0C_tF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P5write08locationB0yAA08LocationB0C_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(record:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P6delete6recordySS_tF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P6delete6recordySS_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAll",
+            "printedName": "deleteAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P9deleteAllyyF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P9deleteAllyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldReport",
+            "printedName": "shouldReport(recordName:locationDatas:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBAssetDataCollectLib.LocationData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationData",
+                    "printedName": "NBAssetDataCollectLib.LocationData",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUnUploadedDataSize",
+            "printedName": "getUnUploadedDataSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P013getUnUploadedB4SizeSiyF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P013getUnUploadedB4SizeSiyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastUnUploadRecordData",
+            "printedName": "getLastUnUploadRecordData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.UnReportLocationData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnReportLocationData",
+                    "printedName": "NBAssetDataCollectLib.UnReportLocationData",
+                    "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P021getLastUnUploadRecordB0AA0h14ReportLocationB0CSgyF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P021getLastUnUploadRecordB0AA0h14ReportLocationB0CSgyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forceReport",
+            "printedName": "forceReport()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P11forceReportyyF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P11forceReportyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "currentCacheTableName",
+            "printedName": "currentCacheTableName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P21currentCacheTableNameSSyF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P21currentCacheTableNameSSyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21NBAssetDataCollectLib05AssetC0P",
+        "mangledName": "$s21NBAssetDataCollectLib05AssetC0P",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetCollectDelegate",
+        "printedName": "AssetCollectDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shouldReport",
+            "printedName": "shouldReport(recordName:locationDataList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBAssetDataCollectLib.LocationData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationData",
+                    "printedName": "NBAssetDataCollectLib.LocationData",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC8DelegateP12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollectDelegate>",
+            "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollectDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP",
+        "mangledName": "$s21NBAssetDataCollectLib05AssetC8DelegateP",
+        "moduleName": "NBAssetDataCollectLib",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetCollectConfig",
+        "printedName": "AssetCollectConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ASSET_COLLECTION_IMPLEMENTION_PATH",
+            "printedName": "ASSET_COLLECTION_IMPLEMENTION_PATH",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC34ASSET_COLLECTION_IMPLEMENTION_PATHSSvpZ",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC34ASSET_COLLECTION_IMPLEMENTION_PATHSSvpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC34ASSET_COLLECTION_IMPLEMENTION_PATHSSvgZ",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC34ASSET_COLLECTION_IMPLEMENTION_PATHSSvgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_CACHE_COUNT",
+            "printedName": "DEFAULT_CACHE_COUNT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC19DEFAULT_CACHE_COUNTSivpZ",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC19DEFAULT_CACHE_COUNTSivpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC19DEFAULT_CACHE_COUNTSivgZ",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC19DEFAULT_CACHE_COUNTSivgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_MAX_CACHE_COUNT",
+            "printedName": "DEFAULT_MAX_CACHE_COUNT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC23DEFAULT_MAX_CACHE_COUNTSivpZ",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC23DEFAULT_MAX_CACHE_COUNTSivpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC23DEFAULT_MAX_CACHE_COUNTSivgZ",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC23DEFAULT_MAX_CACHE_COUNTSivgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_INTERVAL",
+            "printedName": "DEFAULT_INTERVAL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC16DEFAULT_INTERVALSivpZ",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC16DEFAULT_INTERVALSivpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC16DEFAULT_INTERVALSivgZ",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC16DEFAULT_INTERVALSivgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cacheCount",
+            "printedName": "cacheCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC10cacheCountSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxCacheCount",
+            "printedName": "maxCacheCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC13maxCacheCountSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interval",
+            "printedName": "interval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivp",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivg",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivs",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivM",
+                "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC8intervalSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetCollectConfig",
+                "printedName": "NBAssetDataCollectLib.AssetCollectConfig",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigCACycfc",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigCACycfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cacheCount:maxCacheCount:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetCollectConfig",
+                "printedName": "NBAssetDataCollectLib.AssetCollectConfig",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC10cacheCount08maxCacheH08intervalACSi_S2itcfc",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC10cacheCount08maxCacheH08intervalACSi_S2itcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(cacheCount:maxCacheCount:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC6update10cacheCount08maxCacheI08intervalySi_S2itF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC6update10cacheCount08maxCacheI08intervalySi_S2itF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getClassFromString",
+            "printedName": "getClassFromString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject.Type?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC18getClassFromStringyyXlXpSgSSF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC18getClassFromStringyyXlXpSgSSF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC",
+        "mangledName": "$s21NBAssetDataCollectLib05AssetC6ConfigC",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationData",
+        "printedName": "LocationData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "supportsSecureCoding",
+            "printedName": "supportsSecureCoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData(cpy)supportsSecureCoding",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C20supportsSecureCodingSbvpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "objc_name": "supportsSecureCoding",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData(cm)supportsSecureCoding",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C20supportsSecureCodingSbvgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "objc_name": "supportsSecureCoding",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData(cm)setSupportsSecureCoding:",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C20supportsSecureCodingSbvsZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C20supportsSecureCodingSbvMZ",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C20supportsSecureCodingSbvMZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleLocation",
+                "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C8locationAA06SimpleE0Cvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8locationAA06SimpleE0Cvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SimpleLocation",
+                    "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C8locationAA06SimpleE0Cvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8locationAA06SimpleE0Cvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeStamp",
+            "printedName": "timeStamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C9timeStamps5Int64Vvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C9timeStamps5Int64Vvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C9timeStamps5Int64Vvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C9timeStamps5Int64Vvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accuracy",
+            "printedName": "accuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C8accuracySdvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8accuracySdvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C8accuracySdvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8accuracySdvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speed",
+            "printedName": "speed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C5speedSdvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C5speedSdvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C5speedSdvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C5speedSdvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bearing",
+            "printedName": "bearing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C7bearingSdvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C7bearingSdvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C7bearingSdvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C7bearingSdvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C8altitudeSdvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8altitudeSdvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C8altitudeSdvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8altitudeSdvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackingMode",
+            "printedName": "trackingMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C12trackingModeSSvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C12trackingModeSSvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C12trackingModeSSvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C12trackingModeSSvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryRemaining",
+            "printedName": "batteryRemaining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C16batteryRemainingSfvp",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C16batteryRemainingSfvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib08LocationB0C16batteryRemainingSfvg",
+                "mangledName": "$s21NBAssetDataCollectLib08LocationB0C16batteryRemainingSfvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(location:timeStamp:accuracy:speed:bearing:altitude:trackingMode:batteryRemaining:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationData",
+                "printedName": "NBAssetDataCollectLib.LocationData",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleLocation",
+                "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C8location9timeStamp8accuracy5speed7bearing8altitude12trackingMode16batteryRemainingAcA06SimpleE0C_s5Int64VS4dSSSftcfc",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C8location9timeStamp8accuracy5speed7bearing8altitude12trackingMode16batteryRemainingAcA06SimpleE0C_s5Int64VS4dSSSftcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationData",
+                "printedName": "NBAssetDataCollectLib.LocationData",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C4jsonACSDySSypG_tcfc",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C4jsonACSDySSypG_tcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "toJSONDictionary",
+            "printedName": "toJSONDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib08LocationB0C16toJSONDictionarySDySSypGyF",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C16toJSONDictionarySDySSypGyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData(im)encodeWithCoder:",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C6encode4withySo7NSCoderC_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "objc_name": "encodeWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.LocationData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationData",
+                    "printedName": "NBAssetDataCollectLib.LocationData",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData(im)initWithCoder:",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationData",
+                "printedName": "NBAssetDataCollectLib.LocationData",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData(im)init",
+            "mangledName": "$s21NBAssetDataCollectLib08LocationB0CACycfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData",
+        "mangledName": "$s21NBAssetDataCollectLib08LocationB0C",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SimpleLocation",
+        "printedName": "SimpleLocation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "supportsSecureCoding",
+            "printedName": "supportsSecureCoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation(cpy)supportsSecureCoding",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC20supportsSecureCodingSbvpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "objc_name": "supportsSecureCoding",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation(cm)supportsSecureCoding",
+                "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC20supportsSecureCodingSbvgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "objc_name": "supportsSecureCoding",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation(cm)setSupportsSecureCoding:",
+                "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC20supportsSecureCodingSbvsZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib14SimpleLocationC20supportsSecureCodingSbvMZ",
+                "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC20supportsSecureCodingSbvMZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib14SimpleLocationC8latitudeSdvp",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC8latitudeSdvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib14SimpleLocationC8latitudeSdvg",
+                "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC8latitudeSdvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib14SimpleLocationC9longitudeSdvp",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC9longitudeSdvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib14SimpleLocationC9longitudeSdvg",
+                "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC9longitudeSdvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleLocation",
+                "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib14SimpleLocationC8latitude9longitudeACSd_Sdtcfc",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC8latitude9longitudeACSd_Sdtcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleLocation",
+                "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib14SimpleLocationC4jsonACSDySSypG_tcfc",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC4jsonACSDySSypG_tcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "toJSONDictionary",
+            "printedName": "toJSONDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib14SimpleLocationC16toJSONDictionarySDySSypGyF",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC16toJSONDictionarySDySSypGyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation(im)encodeWithCoder:",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC6encode4withySo7NSCoderC_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "objc_name": "encodeWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.SimpleLocation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SimpleLocation",
+                    "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation(im)initWithCoder:",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleLocation",
+                "printedName": "NBAssetDataCollectLib.SimpleLocation",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation(im)init",
+            "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationCACycfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NBAssetDataCollectLib@objc(cs)SimpleLocation",
+        "mangledName": "$s21NBAssetDataCollectLib14SimpleLocationC",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnReportLocationData",
+        "printedName": "UnReportLocationData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "recordName",
+            "printedName": "recordName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvp",
+            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvg",
+                "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationData",
+            "printedName": "locationData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[NBAssetDataCollectLib.LocationData]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NBAssetDataCollectLib.LocationData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationData",
+                        "printedName": "NBAssetDataCollectLib.LocationData",
+                        "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvp",
+            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[NBAssetDataCollectLib.LocationData]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[NBAssetDataCollectLib.LocationData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LocationData",
+                            "printedName": "NBAssetDataCollectLib.LocationData",
+                            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvg",
+                "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[NBAssetDataCollectLib.LocationData]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[NBAssetDataCollectLib.LocationData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LocationData",
+                            "printedName": "NBAssetDataCollectLib.LocationData",
+                            "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvs",
+                "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvs",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvM",
+                "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C08locationB0SayAA0gB0CGSgvM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(recordName:locationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnReportLocationData",
+                "printedName": "NBAssetDataCollectLib.UnReportLocationData",
+                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[NBAssetDataCollectLib.LocationData]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NBAssetDataCollectLib.LocationData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationData",
+                        "printedName": "NBAssetDataCollectLib.LocationData",
+                        "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordName08locationB0ACSS_SayAA0gB0CGSgtcfc",
+            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordName08locationB0ACSS_SayAA0gB0CGSgtcfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isDataValid",
+            "printedName": "isDataValid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C02isB5ValidSbyF",
+            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C02isB5ValidSbyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C",
+        "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NBAssetLogUtil",
+        "printedName": "NBAssetLogUtil",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isDebug",
+            "printedName": "isDebug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvpZ",
+            "mangledName": "$s21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvpZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvgZ",
+                "mangledName": "$s21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvgZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvsZ",
+                "mangledName": "$s21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvsZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvMZ",
+                "mangledName": "$s21NBAssetDataCollectLib0A7LogUtilC7isDebugSbvMZ",
+                "moduleName": "NBAssetDataCollectLib",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:file:method:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0A7LogUtilC8logDebug_4file6method4lineyx_S2SSitlFZ",
+            "mangledName": "$s21NBAssetDataCollectLib0A7LogUtilC8logDebug_4file6method4lineyx_S2SSitlFZ",
+            "moduleName": "NBAssetDataCollectLib",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NBAssetDataCollectLib0A7LogUtilC",
+        "mangledName": "$s21NBAssetDataCollectLib0A7LogUtilC",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MMKV",
+        "printedName": "MMKV",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NBAssetData",
+        "printedName": "NBAssetData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NBAssetData",
+                "printedName": "NBAssetDataCollectLib.NBAssetData",
+                "usr": "s:21NBAssetDataCollectLib0aB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib0aB0CACycfc",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0CACycfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initSdk",
+            "printedName": "initSdk(_:assetCollect:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssetCollectConfig",
+                "printedName": "NBAssetDataCollectLib.AssetCollectConfig",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.AssetCollect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetCollect",
+                    "printedName": "NBAssetDataCollectLib.AssetCollect",
+                    "usr": "s:21NBAssetDataCollectLib05AssetC0P"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetCollectDelegate",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                    "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C7initSdk_05assetC08delegateyAA05AssetC6ConfigC_AA0iC0_pSgAA0iC8Delegate_pSgtF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C7initSdk_05assetC08delegateyAA05AssetC6ConfigC_AA0iC0_pSgAA0iC8Delegate_pSgtF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldAllowNewAssetIdBind",
+            "printedName": "shouldAllowNewAssetIdBind()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C25shouldAllowNewAssetIdBindSbyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C25shouldAllowNewAssetIdBindSbyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRemainingDataSize",
+            "printedName": "getRemainingDataSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C012getRemainingB4SizeSiyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C012getRemainingB4SizeSiyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRemainingLocationsCount",
+            "printedName": "getRemainingLocationsCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C26getRemainingLocationsCountSiyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C26getRemainingLocationsCountSiyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C5debugyySbF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C5debugyySbF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collect",
+            "printedName": "collect(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocationData",
+                "printedName": "NBAssetDataCollectLib.LocationData",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C7collectyyAA08LocationB0CF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C7collectyyAA08LocationB0CF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDataReportSuccess",
+            "printedName": "onDataReportSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySSF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySSF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDataReportFail",
+            "printedName": "onDataReportFail()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C02onB10ReportFailyyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C02onB10ReportFailyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanCacheData",
+            "printedName": "cleanCacheData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C010cleanCacheB0yyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C010cleanCacheB0yyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAssetCollectConfig",
+            "printedName": "getAssetCollectConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.AssetCollectConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetCollectConfig",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectConfig",
+                    "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C08getAssetC6ConfigAA0fcG0CSgyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C08getAssetC6ConfigAA0fcG0CSgyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAssetCollectConfig",
+            "printedName": "setAssetCollectConfig(assetCollectConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AssetCollectConfig",
+                "printedName": "NBAssetDataCollectLib.AssetCollectConfig",
+                "usr": "s:21NBAssetDataCollectLib05AssetC6ConfigC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C08setAssetC6Config05assetcG0yAA0fcG0C_tF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C08setAssetC6Config05assetcG0yAA0fcG0C_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "outOfRerouteDate",
+            "printedName": "outOfRerouteDate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C16outOfRerouteDateSbyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C16outOfRerouteDateSbyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "report",
+            "printedName": "report()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C6reportyyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C6reportyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performReportFailTask",
+            "printedName": "performReportFailTask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C21performReportFailTaskyyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C21performReportFailTaskyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldReport",
+            "printedName": "shouldReport(recordName:locationDataList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBAssetDataCollectLib.LocationData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationData",
+                    "printedName": "NBAssetDataCollectLib.LocationData",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NBAssetDataCollectLib0aB0C",
+        "mangledName": "$s21NBAssetDataCollectLib0aB0C",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AssetCollectDelegate",
+            "printedName": "AssetCollectDelegate",
+            "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC8DelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MMKV",
+        "printedName": "MMKV",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBAssetDataCollectLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetCollectionImp",
+        "printedName": "AssetCollectionImp",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetCollectionImp",
+                "printedName": "NBAssetDataCollectLib.AssetCollectionImp",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpCACycfc",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpCACycfc",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvp",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetCollectDelegate",
+                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvg",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvg",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AssetCollectDelegate",
+                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvs",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvs",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvM",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "currentCacheTableName",
+            "printedName": "currentCacheTableName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC21currentCacheTableNameSSyF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC21currentCacheTableNameSSyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "cacheCount",
+            "printedName": "cacheCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivp",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivg",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivs",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivM",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxCacheCount",
+            "printedName": "maxCacheCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivp",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivg",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivs",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batchWindow",
+            "printedName": "batchWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivp",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivp",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivg",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivg",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivs",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivs",
+                "moduleName": "NBAssetDataCollectLib",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivM",
+                "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivM",
+                "moduleName": "NBAssetDataCollectLib",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC10initializeyyF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC10initializeyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(locationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocationData",
+                "printedName": "NBAssetDataCollectLib.LocationData",
+                "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC5write08locationB0yAA08LocationB0C_tF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC5write08locationB0yAA08LocationB0C_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(record:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC6delete6recordySS_tF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC6delete6recordySS_tF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAll",
+            "printedName": "deleteAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC9deleteAllyyF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC9deleteAllyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldReport",
+            "printedName": "shouldReport(recordName:locationDatas:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NBAssetDataCollectLib.LocationData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationData",
+                    "printedName": "NBAssetDataCollectLib.LocationData",
+                    "usr": "c:@M@NBAssetDataCollectLib@objc(cs)LocationData"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUnUploadedDataSize",
+            "printedName": "getUnUploadedDataSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC013getUnUploadedB4SizeSiyF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC013getUnUploadedB4SizeSiyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastUnUploadRecordData",
+            "printedName": "getLastUnUploadRecordData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.UnReportLocationData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnReportLocationData",
+                    "printedName": "NBAssetDataCollectLib.UnReportLocationData",
+                    "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC021getLastUnUploadRecordB0AA0j14ReportLocationB0CSgyF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC021getLastUnUploadRecordB0AA0j14ReportLocationB0CSgyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forceReport",
+            "printedName": "forceReport()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC11forceReportyyF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC11forceReportyyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC",
+        "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC",
+        "moduleName": "NBAssetDataCollectLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AssetCollect",
+            "printedName": "AssetCollect",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 20,
+      "value": "\"AssetCollectConfig\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 43,
+      "value": "\"NBAssetDataCollectMMKV.AssetCollectionImp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 20,
+      "value": "\"AssetCollectionImp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2028,
+      "length": 20,
+      "value": "\"CFBundleExecutable\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 20,
+      "value": "\"AssetCollectionImp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2338,
+      "length": 38,
+      "value": "\"please apply collection data library\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2684,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2829,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2333,
+      "length": 11,
+      "value": "\"timeStamp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 10,
+      "value": "\"accuracy\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "FloatLiteral",
+      "offset": 2415,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 7,
+      "value": "\"speed\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "FloatLiteral",
+      "offset": 2467,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2498,
+      "length": 9,
+      "value": "\"bearing\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "FloatLiteral",
+      "offset": 2523,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "FloatLiteral",
+      "offset": 2581,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2617,
+      "length": 15,
+      "value": "\"tracking_mode\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2648,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 2687,
+      "length": 15,
+      "value": "\"battery_level\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2717,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "Dictionary",
+      "offset": 3118,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 11,
+      "value": "\"timeStamp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3238,
+      "length": 10,
+      "value": "\"accuracy\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3279,
+      "length": 7,
+      "value": "\"speed\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3314,
+      "length": 9,
+      "value": "\"bearing\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3353,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3394,
+      "length": 15,
+      "value": "\"tracking_mode\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3444,
+      "length": 15,
+      "value": "\"battery_level\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3601,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3653,
+      "length": 11,
+      "value": "\"timeStamp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3705,
+      "length": 10,
+      "value": "\"accuracy\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3753,
+      "length": 7,
+      "value": "\"speed\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3800,
+      "length": 9,
+      "value": "\"bearing\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3850,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3905,
+      "length": 15,
+      "value": "\"tracking_mode\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 3969,
+      "length": 15,
+      "value": "\"battery_level\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4122,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4267,
+      "length": 11,
+      "value": "\"timeStamp\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4331,
+      "length": 10,
+      "value": "\"accuracy\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4391,
+      "length": 7,
+      "value": "\"speed\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4450,
+      "length": 9,
+      "value": "\"bearing\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4512,
+      "length": 10,
+      "value": "\"altitude\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4598,
+      "length": 15,
+      "value": "\"tracking_mode\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4629,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4690,
+      "length": 15,
+      "value": "\"battery_level\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 12,
+      "value": "\"NBAssetDataCollectLib.LocationData\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5235,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "FloatLiteral",
+      "offset": 5256,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5289,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "FloatLiteral",
+      "offset": 5310,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "Dictionary",
+      "offset": 5578,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5595,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5771,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5818,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5931,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 5990,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "kind": "StringLiteral",
+      "offset": 4730,
+      "length": 14,
+      "value": "\"NBAssetDataCollectLib.SimpleLocation\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/UnReportLocationData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/UnReportLocationData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 159,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 19,
+      "value": "\"[Debug \""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 8,
+      "value": "\":func:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 12,
+      "value": "\": message:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 11,
+      "value": "\"MMKVUtils\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 22,
+      "value": "\"current_record_table\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 13,
+      "value": "\"record_list\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 14,
+      "value": "\"currentIndex\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1336,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1685,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 14,
+      "value": "\"currentIndex\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1955,
+      "length": 14,
+      "value": "\"currentIndex\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2140,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2274,
+      "length": 32,
+      "value": "\"clean recordName:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2305,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2782,
+      "length": 36,
+      "value": "\"deleteFromRecordList:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2817,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3099,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3615,
+      "length": 44,
+      "value": "\"lastNotReportRecordName all keys:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3889,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3925,
+      "length": 52,
+      "value": "\"lastNotReportRecordName:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3976,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4395,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5457,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 13,
+      "value": "\"NBAssetData\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 479,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1591,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 31,
+      "value": "\"please set AssetCollectConfig\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 2223,
+      "length": 45,
+      "value": "\"isReporting and report interval data return\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 22,
+      "value": "\"report interval data\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 31,
+      "value": "\"please set AssetCollectConfig\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 2641,
+      "length": 45,
+      "value": "\"isReporting and report interval data return\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 2749,
+      "length": 25,
+      "value": "\"----------  forceReport\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 3075,
+      "length": 26,
+      "value": "\"collect: ${locationData}\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3252,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 3464,
+      "length": 22,
+      "value": "\"onDataReportSuccess:\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3571,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 3713,
+      "length": 69,
+      "value": "\"assetCollectConfig == nil || assetCollectConfig.assetCollect == nil\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 4035,
+      "length": 26,
+      "value": "\"getLastUnReportAssetData\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 4254,
+      "length": 28,
+      "value": "\"AssetCollectConfig not set\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4303,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 4388,
+      "length": 28,
+      "value": "\"AssetCollectConfig not set\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4437,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4468,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5070,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 5451,
+      "length": 21,
+      "value": "\"------------ report\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 5550,
+      "length": 31,
+      "value": "\"------------ outOfRerouteDate\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 5644,
+      "length": 45,
+      "value": "\"Report111  --------  startReport --------- \""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 5883,
+      "length": 72,
+      "value": "\"stopTimer failed data report Timer beacuse unReportLocationData is nil\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 6080,
+      "length": 78,
+      "value": "\"stopTimer failed data report Timer beacuse !unReportLocationData.isDataValid\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 6575,
+      "length": 65,
+      "value": "\"stopTimer failed data report Timer beacuse locationData is .nil\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 6737,
+      "length": 56,
+      "value": "\"stopTimer failed data report Timer beacuse isReporting\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 6856,
+      "length": 29,
+      "value": "\"report interval failed data\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 7051,
+      "length": 68,
+      "value": "\"stopTimer failed data report Timer beacuse of all data is reported\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "StringLiteral",
+      "offset": 7513,
+      "length": 51,
+      "value": "\"data will not be report Timer beacuse isReporting\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7617,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 21,
+      "value": "\"AssetMMKVCollection\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 405,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 743,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "StringLiteral",
+      "offset": 1841,
+      "length": 12,
+      "value": "\"initialize\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2902,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "StringLiteral",
+      "offset": 3556,
+      "length": 34,
+      "value": "\"Report111  --------  forceReport\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3626,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3803,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3839,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "StringLiteral",
+      "offset": 4030,
+      "length": 47,
+      "value": "\"forceReport unReportLocationData = nil return\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "StringLiteral",
+      "offset": 4402,
+      "length": 41,
+      "value": "\"forceReport reportListData = nil return\""
+    },
+    {
+      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "kind": "StringLiteral",
+      "offset": 4858,
+      "length": 57,
+      "value": "\"forceReport unReportLocationData.isDataValid() is false\""
+    }
+  ]
+}

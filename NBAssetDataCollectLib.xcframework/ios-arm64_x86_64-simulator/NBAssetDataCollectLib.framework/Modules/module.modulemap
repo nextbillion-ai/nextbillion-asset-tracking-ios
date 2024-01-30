@@ -1,0 +1,11 @@
+framework module NBAssetDataCollectLib {
+  umbrella header "NBAssetDataCollectLib.h"
+  export *
+
+  module * { export * }
+}
+
+module NBAssetDataCollectLib.Swift {
+  header "NBAssetDataCollectLib-Swift.h"
+  requires objc
+}
