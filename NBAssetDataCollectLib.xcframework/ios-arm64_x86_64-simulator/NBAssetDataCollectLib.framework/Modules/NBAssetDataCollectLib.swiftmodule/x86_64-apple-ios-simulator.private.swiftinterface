@@ -1,0 +1,139 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NBAssetDataCollectLib
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import MMKV
+@_exported import NBAssetDataCollectLib
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol AssetCollect {
+  init()
+  var cacheCount: Swift.Int { get set }
+  var maxCacheCount: Swift.Int { get set }
+  var batchWindow: Swift.Int { get set }
+  var delegate: (any NBAssetDataCollectLib.AssetCollectDelegate)? { get set }
+  func initialize()
+  func write(locationData: NBAssetDataCollectLib.LocationData)
+  func delete(record: Swift.String)
+  func deleteAll()
+  func shouldReport(recordName: Swift.String, locationDatas: [NBAssetDataCollectLib.LocationData])
+  func getUnUploadedDataSize() -> Swift.Int
+  func getLastUnUploadRecordData() -> NBAssetDataCollectLib.UnReportLocationData?
+  func forceReport()
+  func currentCacheTableName() -> Swift.String
+}
+public protocol AssetCollectDelegate : AnyObject {
+  func shouldReport(recordName: Swift.String, locationDataList: [NBAssetDataCollectLib.LocationData])
+}
+public class AssetCollectConfig {
+  public static let ASSET_COLLECTION_IMPLEMENTION_PATH: Swift.String
+  public static let DEFAULT_CACHE_COUNT: Swift.Int
+  public static let DEFAULT_MAX_CACHE_COUNT: Swift.Int
+  public static let DEFAULT_INTERVAL: Swift.Int
+  public var cacheCount: Swift.Int
+  public var maxCacheCount: Swift.Int
+  public var interval: Swift.Int
+  public init()
+  public init(cacheCount: Swift.Int = DEFAULT_CACHE_COUNT, maxCacheCount: Swift.Int = DEFAULT_MAX_CACHE_COUNT, interval: Swift.Int = DEFAULT_INTERVAL)
+  public func update(cacheCount: Swift.Int, maxCacheCount: Swift.Int, interval: Swift.Int)
+  public func getClassFromString(_ classString: Swift.String) -> Swift.AnyClass?
+  @objc deinit
+}
+public typealias StringDictionary = [Swift.String : Swift.String]
+public typealias JSONDictionary = [Swift.String : Any]
+@objc public class LocationData : ObjectiveC.NSObject, Foundation.NSSecureCoding {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  final public let location: NBAssetDataCollectLib.SimpleLocation
+  final public let timeStamp: Swift.Int64
+  final public let accuracy: Swift.Double
+  final public let speed: Swift.Double
+  final public let bearing: Swift.Double
+  final public let altitude: Swift.Double
+  final public let trackingMode: Swift.String
+  final public let batteryRemaining: Swift.Float
+  public init(location: NBAssetDataCollectLib.SimpleLocation, timeStamp: Swift.Int64, accuracy: Swift.Double, speed: Swift.Double, bearing: Swift.Double, altitude: Swift.Double, trackingMode: Swift.String, batteryRemaining: Swift.Float)
+  convenience public init(json: NBAssetDataCollectLib.JSONDictionary)
+  public func toJSONDictionary() -> NBAssetDataCollectLib.JSONDictionary
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public class SimpleLocation : ObjectiveC.NSObject, Foundation.NSSecureCoding {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  final public let latitude: Swift.Double
+  final public let longitude: Swift.Double
+  public init(latitude: Swift.Double, longitude: Swift.Double)
+  convenience public init(json: NBAssetDataCollectLib.JSONDictionary)
+  public func toJSONDictionary() -> NBAssetDataCollectLib.JSONDictionary
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class UnReportLocationData {
+  final public let recordName: Swift.String
+  public var locationData: [NBAssetDataCollectLib.LocationData]?
+  public init(recordName: Swift.String, locationData: [NBAssetDataCollectLib.LocationData]?)
+  public func isDataValid() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NBAssetLogUtil {
+  public static var isDebug: Swift.Bool
+  public static func logDebug<T>(_ message: T, file: Swift.String = #file, method: Swift.String = #function, line: Swift.Int = #line)
+  @objc deinit
+}
+public class NBAssetData {
+  public init()
+  public func initSdk(_ assetCollectConfig: NBAssetDataCollectLib.AssetCollectConfig, assetCollect: (any NBAssetDataCollectLib.AssetCollect)?, delegate: (any NBAssetDataCollectLib.AssetCollectDelegate)?)
+  public func shouldAllowNewAssetIdBind() -> Swift.Bool
+  public func getRemainingDataSize() -> Swift.Int
+  public func getRemainingLocationsCount() -> Swift.Int
+  public func debug(_ isDebug: Swift.Bool)
+  public func collect(_ locationData: NBAssetDataCollectLib.LocationData)
+  public func onDataReportSuccess(_ recordName: Swift.String)
+  public func onDataReportFail()
+  public func cleanCacheData()
+  public func getAssetCollectConfig() -> NBAssetDataCollectLib.AssetCollectConfig?
+  public func setAssetCollectConfig(assetCollectConfig: NBAssetDataCollectLib.AssetCollectConfig)
+  public func outOfRerouteDate() -> Swift.Bool
+  public func report()
+  public func performReportFailTask()
+  @objc deinit
+}
+extension NBAssetDataCollectLib.NBAssetData : NBAssetDataCollectLib.AssetCollectDelegate {
+  public func shouldReport(recordName: Swift.String, locationDataList: [NBAssetDataCollectLib.LocationData])
+}
+open class AssetCollectionImp {
+  required public init()
+  @objc deinit
+}
+extension NBAssetDataCollectLib.AssetCollectionImp : NBAssetDataCollectLib.AssetCollect {
+  weak public var delegate: (any NBAssetDataCollectLib.AssetCollectDelegate)? {
+    get
+    set
+  }
+  public func currentCacheTableName() -> Swift.String
+  public var cacheCount: Swift.Int {
+    get
+    set
+  }
+  public var maxCacheCount: Swift.Int {
+    get
+    set
+  }
+  public var batchWindow: Swift.Int {
+    get
+    set
+  }
+  public func initialize()
+  public func write(locationData: NBAssetDataCollectLib.LocationData)
+  public func delete(record: Swift.String)
+  public func deleteAll()
+  public func shouldReport(recordName: Swift.String, locationDatas: [NBAssetDataCollectLib.LocationData])
+  public func getUnUploadedDataSize() -> Swift.Int
+  public func getLastUnUploadRecordData() -> NBAssetDataCollectLib.UnReportLocationData?
+  public func forceReport()
+}
