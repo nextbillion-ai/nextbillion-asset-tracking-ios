@@ -324,12 +324,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AssetCollectDelegate",
-                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                    "printedName": "any NBAssetDataCollectLib.AssetCollectDelegate",
                     "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
                   }
                 ],
@@ -350,12 +350,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AssetCollectDelegate",
-                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "printedName": "any NBAssetDataCollectLib.AssetCollectDelegate",
                         "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
                       }
                     ],
@@ -385,12 +385,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AssetCollectDelegate",
-                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "printedName": "any NBAssetDataCollectLib.AssetCollectDelegate",
                         "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
                       }
                     ],
@@ -1317,12 +1317,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3171,12 +3171,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "NBAssetDataCollectLib.AssetCollect?",
+                "printedName": "(any NBAssetDataCollectLib.AssetCollect)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AssetCollect",
-                    "printedName": "NBAssetDataCollectLib.AssetCollect",
+                    "printedName": "any NBAssetDataCollectLib.AssetCollect",
                     "usr": "s:21NBAssetDataCollectLib05AssetC0P"
                   }
                 ],
@@ -3185,12 +3185,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AssetCollectDelegate",
-                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                    "printedName": "any NBAssetDataCollectLib.AssetCollectDelegate",
                     "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
                   }
                 ],
@@ -3622,7 +3622,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?"
+                "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -3644,12 +3644,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AssetCollectDelegate",
-                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "printedName": "any NBAssetDataCollectLib.AssetCollectDelegate",
                         "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
                       }
                     ],
@@ -3676,12 +3676,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "NBAssetDataCollectLib.AssetCollectDelegate?",
+                    "printedName": "(any NBAssetDataCollectLib.AssetCollectDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AssetCollectDelegate",
-                        "printedName": "NBAssetDataCollectLib.AssetCollectDelegate",
+                        "printedName": "any NBAssetDataCollectLib.AssetCollectDelegate",
                         "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP"
                       }
                     ],
@@ -4227,1145 +4227,186 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 20,
       "value": "\"AssetCollectConfig\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 43,
       "value": "\"NBAssetDataCollectMMKV.AssetCollectionImp\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 402,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 448,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1914,
-      "length": 20,
-      "value": "\"AssetCollectionImp\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2028,
-      "length": 20,
-      "value": "\"CFBundleExecutable\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2112,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2118,
-      "length": 20,
-      "value": "\"AssetCollectionImp\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2338,
-      "length": 38,
-      "value": "\"please apply collection data library\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2684,
-      "length": 14,
-      "value": "\"CFBundleName\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2829,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/model\/LocationData.swift",
       "kind": "BooleanLiteral",
       "offset": 296,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2272,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2333,
-      "length": 11,
-      "value": "\"timeStamp\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2359,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2389,
-      "length": 10,
-      "value": "\"accuracy\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "FloatLiteral",
-      "offset": 2415,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2444,
-      "length": 7,
-      "value": "\"speed\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "FloatLiteral",
-      "offset": 2467,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2498,
-      "length": 9,
-      "value": "\"bearing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "FloatLiteral",
-      "offset": 2523,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2555,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "FloatLiteral",
-      "offset": 2581,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2617,
-      "length": 15,
-      "value": "\"tracking_mode\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2648,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 2687,
-      "length": 15,
-      "value": "\"battery_level\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2717,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "Dictionary",
-      "offset": 3118,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3135,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3195,
-      "length": 11,
-      "value": "\"timeStamp\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3238,
-      "length": 10,
-      "value": "\"accuracy\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3279,
-      "length": 7,
-      "value": "\"speed\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3314,
-      "length": 9,
-      "value": "\"bearing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3353,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3394,
-      "length": 15,
-      "value": "\"tracking_mode\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3444,
-      "length": 15,
-      "value": "\"battery_level\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3601,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3653,
-      "length": 11,
-      "value": "\"timeStamp\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3705,
-      "length": 10,
-      "value": "\"accuracy\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3753,
-      "length": 7,
-      "value": "\"speed\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3800,
-      "length": 9,
-      "value": "\"bearing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3850,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3905,
-      "length": 15,
-      "value": "\"tracking_mode\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 3969,
-      "length": 15,
-      "value": "\"battery_level\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4122,
-      "length": 10,
-      "value": "\"location\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4267,
-      "length": 11,
-      "value": "\"timeStamp\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4331,
-      "length": 10,
-      "value": "\"accuracy\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4391,
-      "length": 7,
-      "value": "\"speed\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4450,
-      "length": 9,
-      "value": "\"bearing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4512,
-      "length": 10,
-      "value": "\"altitude\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4598,
-      "length": 15,
-      "value": "\"tracking_mode\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4629,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 4690,
-      "length": 15,
-      "value": "\"battery_level\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/model\/LocationData.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 12,
       "value": "\"NBAssetDataCollectLib.LocationData\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/model\/LocationData.swift",
       "kind": "BooleanLiteral",
       "offset": 4823,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5235,
-      "length": 5,
-      "value": "\"lat\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "FloatLiteral",
-      "offset": 5256,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5289,
-      "length": 5,
-      "value": "\"lon\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "FloatLiteral",
-      "offset": 5310,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "Dictionary",
-      "offset": 5578,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5595,
-      "length": 5,
-      "value": "\"lat\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5631,
-      "length": 5,
-      "value": "\"lon\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5771,
-      "length": 5,
-      "value": "\"lat\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5818,
-      "length": 5,
-      "value": "\"lon\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5931,
-      "length": 5,
-      "value": "\"lat\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
-      "kind": "StringLiteral",
-      "offset": 5990,
-      "length": 5,
-      "value": "\"lon\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/LocationData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/model\/LocationData.swift",
       "kind": "StringLiteral",
       "offset": 4730,
       "length": 14,
       "value": "\"NBAssetDataCollectLib.SimpleLocation\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/UnReportLocationData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 456,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/model\/UnReportLocationData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 461,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 471,
-      "length": 19,
-      "value": "\"[Debug \""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 488,
-      "length": 1,
-      "value": "\"]\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 541,
-      "length": 8,
-      "value": "\":func:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/NBAssetLogUtil.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 12,
-      "value": "\": message:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 11,
       "value": "\"MMKVUtils\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 22,
       "value": "\"current_record_table\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 13,
       "value": "\"record_list\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 914,
-      "length": 14,
-      "value": "\"currentIndex\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 944,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1227,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1336,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1685,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1731,
-      "length": 14,
-      "value": "\"currentIndex\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1761,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1955,
-      "length": 14,
-      "value": "\"currentIndex\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2140,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2274,
-      "length": 32,
-      "value": "\"clean recordName:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2305,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2782,
-      "length": 36,
-      "value": "\"deleteFromRecordList:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 2817,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3099,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3205,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3615,
-      "length": 44,
-      "value": "\"lastNotReportRecordName all keys:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3658,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3821,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3889,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3925,
-      "length": 52,
-      "value": "\"lastNotReportRecordName:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 3976,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4395,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5257,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5299,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/utils\/MMKVUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5457,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 13,
       "value": "\"NBAssetData\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
       "kind": "IntegerLiteral",
       "offset": 447,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
       "kind": "BooleanLiteral",
       "offset": 479,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1591,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1791,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 2100,
-      "length": 31,
-      "value": "\"please set AssetCollectConfig\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 2223,
-      "length": 45,
-      "value": "\"isReporting and report interval data return\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 2331,
-      "length": 22,
-      "value": "\"report interval data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 2518,
-      "length": 31,
-      "value": "\"please set AssetCollectConfig\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 2641,
-      "length": 45,
-      "value": "\"isReporting and report interval data return\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 2749,
-      "length": 25,
-      "value": "\"----------  forceReport\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 3075,
-      "length": 26,
-      "value": "\"collect: ${locationData}\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3252,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 3464,
-      "length": 22,
-      "value": "\"onDataReportSuccess:\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3571,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 3713,
-      "length": 69,
-      "value": "\"assetCollectConfig == nil || assetCollectConfig.assetCollect == nil\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 4035,
-      "length": 26,
-      "value": "\"getLastUnReportAssetData\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 4254,
-      "length": 28,
-      "value": "\"AssetCollectConfig not set\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4303,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 4388,
-      "length": 28,
-      "value": "\"AssetCollectConfig not set\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4437,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4468,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5070,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 5451,
-      "length": 21,
-      "value": "\"------------ report\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 5550,
-      "length": 31,
-      "value": "\"------------ outOfRerouteDate\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 5644,
-      "length": 45,
-      "value": "\"Report111  --------  startReport --------- \""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 5883,
-      "length": 72,
-      "value": "\"stopTimer failed data report Timer beacuse unReportLocationData is nil\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 6080,
-      "length": 78,
-      "value": "\"stopTimer failed data report Timer beacuse !unReportLocationData.isDataValid\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 6575,
-      "length": 65,
-      "value": "\"stopTimer failed data report Timer beacuse locationData is .nil\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 6737,
-      "length": 56,
-      "value": "\"stopTimer failed data report Timer beacuse isReporting\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 6856,
-      "length": 29,
-      "value": "\"report interval failed data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 7051,
-      "length": 68,
-      "value": "\"stopTimer failed data report Timer beacuse of all data is reported\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "StringLiteral",
-      "offset": 7513,
-      "length": 51,
-      "value": "\"data will not be report Timer beacuse isReporting\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7617,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 21,
       "value": "\"AssetMMKVCollection\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
       "kind": "IntegerLiteral",
       "offset": 405,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
       "kind": "IntegerLiteral",
       "offset": 446,
       "length": 5,
       "value": "10000"
     },
     {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 2,
       "value": "60"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 743,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 779,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 862,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 908,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "BooleanLiteral",
-      "offset": 925,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "StringLiteral",
-      "offset": 1841,
-      "length": 12,
-      "value": "\"initialize\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2872,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2902,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "StringLiteral",
-      "offset": 3556,
-      "length": 34,
-      "value": "\"Report111  --------  forceReport\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3626,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3803,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3839,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "StringLiteral",
-      "offset": 4030,
-      "length": 47,
-      "value": "\"forceReport unReportLocationData = nil return\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "StringLiteral",
-      "offset": 4402,
-      "length": 41,
-      "value": "\"forceReport reportListData = nil return\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/nb_project\/NBAssetTracking\/NBAssetDataCollectLib\/AssetCollectionImp.swift",
-      "kind": "StringLiteral",
-      "offset": 4858,
-      "length": 57,
-      "value": "\"forceReport unReportLocationData.isDataValid() is false\""
     }
   ]
 }
