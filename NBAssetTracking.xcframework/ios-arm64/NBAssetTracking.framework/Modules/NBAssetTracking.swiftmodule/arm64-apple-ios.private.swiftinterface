@@ -93,13 +93,17 @@ public struct Trip : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@objc open class UpdateAssetProfile : ObjectiveC.NSObject {
-  public init(name: Swift.String, description: Swift.String? = nil, attributes: [Swift.String : Any]? = nil)
+@objc open class UpdateAssetProfile : ObjectiveC.NSObject, Swift.Codable {
+  public init(name: Swift.String, description: Swift.String? = nil, attributes: [Swift.String : Swift.String]? = nil)
   @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
-@objc open class AssetProfile : ObjectiveC.NSObject {
-  public init(name: Swift.String, customId: Swift.String? = nil, description: Swift.String? = nil, attributes: [Swift.String : Any]? = nil)
+@objc open class AssetProfile : ObjectiveC.NSObject, Swift.Codable {
+  public init(name: Swift.String, customId: Swift.String? = nil, description: Swift.String? = nil, attributes: [Swift.String : Swift.String]? = nil)
   @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class ErrorMessage {
   @objc deinit
@@ -418,13 +422,17 @@ public struct AssetRequest {
   open func getTrip(tripId: Swift.String, completionHandler: @escaping (NBAssetTracking.Trip) -> Swift.Void, errorHandler: @escaping (NBAssetTracking.AssetError) -> Swift.Void)
   @objc deinit
 }
-@objc open class TripProfile : ObjectiveC.NSObject {
-  public init(customId: Swift.String? = nil, name: Swift.String, description: Swift.String? = nil, metaData: [Swift.String : Any]? = nil, attributes: [Swift.String : Any]? = nil, stops: [NBAssetTracking.TripStop]? = nil)
+@objc open class TripProfile : ObjectiveC.NSObject, Swift.Codable {
+  public init(customId: Swift.String? = nil, name: Swift.String, description: Swift.String? = nil, metaData: [Swift.String : Swift.String]? = nil, attributes: [Swift.String : Swift.String]? = nil, stops: [NBAssetTracking.TripStop]? = nil)
   @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
-@objc open class UpdateTripProfile : ObjectiveC.NSObject {
-  public init(name: Swift.String, description: Swift.String? = nil, metaData: [Swift.String : Any]? = nil, attributes: [Swift.String : Any]? = nil, stops: [NBAssetTracking.TripStop]? = nil)
+@objc open class UpdateTripProfile : ObjectiveC.NSObject, Swift.Codable {
+  public init(name: Swift.String, description: Swift.String? = nil, metaData: [Swift.String : Swift.String]? = nil, attributes: [Swift.String : Swift.String]? = nil, stops: [NBAssetTracking.TripStop]? = nil)
   @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum TrackingDisableType {
   case none
@@ -474,9 +482,9 @@ public enum TrackingDisableType {
 }
 public struct TripStop : Swift.Codable {
   public var name: Swift.String?
-  public var metaData: [Swift.String : NBAssetTracking.AnyCodable]?
+  public var metaData: [Swift.String : Swift.String]?
   public var geofenceId: Swift.String?
-  public init(name: Swift.String? = nil, metaData: [Swift.String : NBAssetTracking.AnyCodable]? = nil, geofenceId: Swift.String? = nil)
+  public init(name: Swift.String? = nil, metaData: [Swift.String : Swift.String]? = nil, geofenceId: Swift.String? = nil)
   public func toDictionary() -> [Swift.String : Any]
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

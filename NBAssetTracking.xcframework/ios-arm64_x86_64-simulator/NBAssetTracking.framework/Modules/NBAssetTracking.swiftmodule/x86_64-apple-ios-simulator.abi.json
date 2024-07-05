@@ -2908,12 +2908,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2923,8 +2923,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -2935,8 +2936,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NBAssetTracking18UpdateAssetProfileC4name11description10attributesACSS_SSSgSDySSypGSgtcfc",
-            "mangledName": "$s15NBAssetTracking18UpdateAssetProfileC4name11description10attributesACSS_SSSgSDySSypGSgtcfc",
+            "usr": "s:15NBAssetTracking18UpdateAssetProfileC4name11description10attributesACSS_SSSgSDyS2SGSgtcfc",
+            "mangledName": "$s15NBAssetTracking18UpdateAssetProfileC4name11description10attributesACSS_SSSgSDyS2SGSgtcfc",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "AccessControl"
@@ -2968,6 +2969,61 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateAssetProfile",
+                "printedName": "NBAssetTracking.UpdateAssetProfile",
+                "usr": "c:@M@NBAssetTracking@objc(cs)UpdateAssetProfile"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NBAssetTracking18UpdateAssetProfileC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NBAssetTracking18UpdateAssetProfileC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking18UpdateAssetProfileC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NBAssetTracking18UpdateAssetProfileC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2984,6 +3040,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3090,12 +3160,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3105,8 +3175,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -3117,8 +3188,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NBAssetTracking12AssetProfileC4name8customId11description10attributesACSS_SSSgAHSDySSypGSgtcfc",
-            "mangledName": "$s15NBAssetTracking12AssetProfileC4name8customId11description10attributesACSS_SSSgAHSDySSypGSgtcfc",
+            "usr": "s:15NBAssetTracking12AssetProfileC4name8customId11description10attributesACSS_SSSgAHSDyS2SGSgtcfc",
+            "mangledName": "$s15NBAssetTracking12AssetProfileC4name8customId11description10attributesACSS_SSSgAHSDyS2SGSgtcfc",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "AccessControl"
@@ -3150,6 +3221,61 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetProfile",
+                "printedName": "NBAssetTracking.AssetProfile",
+                "usr": "c:@M@NBAssetTracking@objc(cs)AssetProfile"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NBAssetTracking12AssetProfileC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NBAssetTracking12AssetProfileC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking12AssetProfileC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NBAssetTracking12AssetProfileC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3166,6 +3292,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14423,12 +14563,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14438,8 +14578,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -14451,12 +14592,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14466,8 +14607,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -14501,8 +14643,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NBAssetTracking11TripProfileC8customId4name11description8metaData10attributes5stopsACSSSg_SSAJSDySSypGSgALSayAA0C4StopVGSgtcfc",
-            "mangledName": "$s15NBAssetTracking11TripProfileC8customId4name11description8metaData10attributes5stopsACSSSg_SSAJSDySSypGSgALSayAA0C4StopVGSgtcfc",
+            "usr": "s:15NBAssetTracking11TripProfileC8customId4name11description8metaData10attributes5stopsACSSSg_SSAJSDyS2SGSgALSayAA0C4StopVGSgtcfc",
+            "mangledName": "$s15NBAssetTracking11TripProfileC8customId4name11description8metaData10attributes5stopsACSSSg_SSAJSDyS2SGSgALSayAA0C4StopVGSgtcfc",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "AccessControl"
@@ -14534,6 +14676,61 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TripProfile",
+                "printedName": "NBAssetTracking.TripProfile",
+                "usr": "c:@M@NBAssetTracking@objc(cs)TripProfile"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NBAssetTracking11TripProfileC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NBAssetTracking11TripProfileC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking11TripProfileC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NBAssetTracking11TripProfileC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14550,6 +14747,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14641,12 +14852,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14656,8 +14867,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -14669,12 +14881,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14684,8 +14896,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -14719,8 +14932,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NBAssetTracking17UpdateTripProfileC4name11description8metaData10attributes5stopsACSS_SSSgSDySSypGSgAKSayAA0D4StopVGSgtcfc",
-            "mangledName": "$s15NBAssetTracking17UpdateTripProfileC4name11description8metaData10attributes5stopsACSS_SSSgSDySSypGSgAKSayAA0D4StopVGSgtcfc",
+            "usr": "s:15NBAssetTracking17UpdateTripProfileC4name11description8metaData10attributes5stopsACSS_SSSgSDyS2SGSgAKSayAA0D4StopVGSgtcfc",
+            "mangledName": "$s15NBAssetTracking17UpdateTripProfileC4name11description8metaData10attributes5stopsACSS_SSSgSDyS2SGSgAKSayAA0D4StopVGSgtcfc",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "AccessControl"
@@ -14752,6 +14965,61 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateTripProfile",
+                "printedName": "NBAssetTracking.UpdateTripProfile",
+                "usr": "c:@M@NBAssetTracking@objc(cs)UpdateTripProfile"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NBAssetTracking17UpdateTripProfileC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NBAssetTracking17UpdateTripProfileC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking17UpdateTripProfileC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NBAssetTracking17UpdateTripProfileC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NBAssetTracking",
+            "implicit": true,
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14768,6 +15036,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16913,12 +17195,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : NBAssetTracking.AnyCodable]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : NBAssetTracking.AnyCodable]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -16928,9 +17210,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "AnyCodable",
-                        "printedName": "NBAssetTracking.AnyCodable",
-                        "usr": "s:15NBAssetTracking10AnyCodableV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -16940,8 +17222,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvp",
-            "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvp",
+            "usr": "s:15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvp",
+            "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvp",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "HasInitialValue",
@@ -16958,12 +17240,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : NBAssetTracking.AnyCodable]?",
+                    "printedName": "[Swift.String : Swift.String]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Dictionary",
-                        "printedName": "[Swift.String : NBAssetTracking.AnyCodable]",
+                        "printedName": "[Swift.String : Swift.String]",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -16973,9 +17255,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "AnyCodable",
-                            "printedName": "NBAssetTracking.AnyCodable",
-                            "usr": "s:15NBAssetTracking10AnyCodableV"
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
                         ],
                         "usr": "s:SD"
@@ -16985,8 +17267,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvg",
-                "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvg",
+                "usr": "s:15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvg",
+                "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvg",
                 "moduleName": "NBAssetTracking",
                 "implicit": true,
                 "accessorKind": "get"
@@ -17004,12 +17286,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : NBAssetTracking.AnyCodable]?",
+                    "printedName": "[Swift.String : Swift.String]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Dictionary",
-                        "printedName": "[Swift.String : NBAssetTracking.AnyCodable]",
+                        "printedName": "[Swift.String : Swift.String]",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -17019,9 +17301,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "AnyCodable",
-                            "printedName": "NBAssetTracking.AnyCodable",
-                            "usr": "s:15NBAssetTracking10AnyCodableV"
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
                         ],
                         "usr": "s:SD"
@@ -17031,8 +17313,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvs",
-                "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvs",
+                "usr": "s:15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvs",
+                "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvs",
                 "moduleName": "NBAssetTracking",
                 "implicit": true,
                 "accessorKind": "set"
@@ -17049,8 +17331,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvM",
-                "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDySSAA10AnyCodableVGSgvM",
+                "usr": "s:15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvM",
+                "mangledName": "$s15NBAssetTracking8TripStopV8metaDataSDyS2SGSgvM",
                 "moduleName": "NBAssetTracking",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -17196,12 +17478,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : NBAssetTracking.AnyCodable]?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : NBAssetTracking.AnyCodable]",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -17211,9 +17493,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "AnyCodable",
-                        "printedName": "NBAssetTracking.AnyCodable",
-                        "usr": "s:15NBAssetTracking10AnyCodableV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:SD"
@@ -17239,8 +17521,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NBAssetTracking8TripStopV4name8metaData10geofenceIdACSSSg_SDySSAA10AnyCodableVGSgAGtcfc",
-            "mangledName": "$s15NBAssetTracking8TripStopV4name8metaData10geofenceIdACSSSg_SDySSAA10AnyCodableVGSgAGtcfc",
+            "usr": "s:15NBAssetTracking8TripStopV4name8metaData10geofenceIdACSSSg_SDyS2SGSgAGtcfc",
+            "mangledName": "$s15NBAssetTracking8TripStopV4name8metaData10geofenceIdACSSSg_SDyS2SGSgAGtcfc",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "AccessControl"
@@ -17532,6 +17814,20 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
+      "offset": 528,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "kind": "StringLiteral",
       "offset": 143,
       "length": 18,
       "value": "\"NBAssetTracking.UpdateAssetProfile\""
@@ -17539,7 +17835,21 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1057,
+      "offset": 1761,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 1761,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
       "length": 12,
       "value": "\"NBAssetTracking.AssetProfile\""
     },
@@ -18302,7 +18612,7 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1716,
+      "offset": 1736,
       "length": 17,
       "value": "\"NBAssetTracking.UpdateTripProfile\""
     },
@@ -18400,28 +18710,28 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
-      "offset": 873,
+      "offset": 865,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 907,
       "length": 13,
       "value": "\"geofence_id\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
-      "offset": 873,
+      "offset": 865,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 907,
       "length": 13,
       "value": "\"geofence_id\""
     }

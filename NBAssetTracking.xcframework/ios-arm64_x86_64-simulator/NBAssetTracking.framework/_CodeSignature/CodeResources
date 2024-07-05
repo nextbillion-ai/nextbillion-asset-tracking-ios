@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sYGBcivIdWPsIrKbgkdDqxPcmc4=
+		DeQFj4Crq4UMu7JCABIt8FC78WA=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1WeQGTFl40TxKGqJXmedXOBKrbM=
+		SZafhWIuovLBfNpo99qCqG5WwKY=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		DXl3aV2Xs2/Q+xuCrEjKrYcvXD8=
+		dPqc6fkX26DN5qLR4gpi7IJdOs4=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9GQy+AgVk115XIcmpdPeJ9cBUcs=
+		4gHwBd5UJVFuJIu90i/5Sl6J9Yo=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pb7eBOG5yaTx51EjuUYCMT8HHOE=
+		GBFwmCRtIA2NG7HD6kzcl5ESuho=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pb7eBOG5yaTx51EjuUYCMT8HHOE=
+		GBFwmCRtIA2NG7HD6kzcl5ESuho=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Nffjs8Dqs6s5LOkjbV9AKF+VrsU=
+		AWmKtTCKhZiccHY9isOyPdzPrZY=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9GQy+AgVk115XIcmpdPeJ9cBUcs=
+		4gHwBd5UJVFuJIu90i/5Sl6J9Yo=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RK5RlKYo+E1hn+jJVKK5m6NvRVw=
+		lu3mZL/YTuAzr+CxCByq8wyJDyw=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RK5RlKYo+E1hn+jJVKK5m6NvRVw=
+		lu3mZL/YTuAzr+CxCByq8wyJDyw=
 		</data>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wbGTnjx/6qlpBGwo+vKhWE5H81k=
+		BjRewzBstErFnai/kiq4vuGsFLM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,28 +89,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p8L6b8W1UnzjDbSxf2sQ4E0oRnZIb51+OCrIQcjJtbE=
+			8iS7JbYO7C5ntvgdzZ5mDgVybOfGA/Gh0r4vFTGBMoc=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9wb37tMEtbzIgoaE5XYUrLpOCP/PGR+xUMRtR3HJ/js=
+			kBD2ZOWXTTJXrN8MD5gweL/3SAbIAqWUNd9LWUKOKAw=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQsQxl0l60xN4rpk4Zpxo+CgL3T3vOfBsMlhaDnEOjY=
+			3h7JTTfaLjyC8kRSsnPTR7c+FAHoXzbMYDvHXwdNP1M=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vMXO5ycYOawOPlASbqym/UTNJUMPFKQiPRQRQqr5ESw=
+			bZN2w39exOUSL4sxFyNHobiWJu+OE67Wa5xZIPAgXN8=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vMXO5ycYOawOPlASbqym/UTNJUMPFKQiPRQRQqr5ESw=
+			bZN2w39exOUSL4sxFyNHobiWJu+OE67Wa5xZIPAgXN8=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4nkzueZjQNGd/W4EDquNTMhk/o73yW/NpQd6b40UyjU=
+			mjvOJ1RmAYolombXwTkeNSutq44Anz3EODDk6B/0/ME=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQsQxl0l60xN4rpk4Zpxo+CgL3T3vOfBsMlhaDnEOjY=
+			3h7JTTfaLjyC8kRSsnPTR7c+FAHoXzbMYDvHXwdNP1M=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ds/TAjBeVwnNmGxO+ApxDcLNjBQVeuXEOxGrIV8aS08=
+			q997R727X2K8tvpjmPq69xZTa9ki6QtWX1qd4SECUrI=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ds/TAjBeVwnNmGxO+ApxDcLNjBQVeuXEOxGrIV8aS08=
+			q997R727X2K8tvpjmPq69xZTa9ki6QtWX1qd4SECUrI=
 			</data>
 		</dict>
 		<key>Modules/NBAssetTracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sXU8fE7kpNw2ONROVEGVjUPle+r/j7qCx50tHgJdp4=
+			7AAXCNV1SbK2/MlC0CqUIwMO6iNFUXe8N6p3krjcfic=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
