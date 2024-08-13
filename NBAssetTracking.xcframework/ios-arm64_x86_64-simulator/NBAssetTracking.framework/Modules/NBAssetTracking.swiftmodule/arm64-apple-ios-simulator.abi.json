@@ -6814,19 +6814,27 @@
           },
           {
             "kind": "Var",
-            "name": "recordName",
-            "printedName": "recordName",
+            "name": "recordNames",
+            "printedName": "recordNames",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NBAssetTracking7DataLogC10recordNameSSvp",
-            "mangledName": "$s15NBAssetTracking7DataLogC10recordNameSSvp",
+            "usr": "s:15NBAssetTracking7DataLogC11recordNamesSaySSGvp",
+            "mangledName": "$s15NBAssetTracking7DataLogC11recordNamesSaySSGvp",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "Final",
@@ -6843,14 +6851,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NBAssetTracking7DataLogC10recordNameSSvg",
-                "mangledName": "$s15NBAssetTracking7DataLogC10recordNameSSvg",
+                "usr": "s:15NBAssetTracking7DataLogC11recordNamesSaySSGvg",
+                "mangledName": "$s15NBAssetTracking7DataLogC11recordNamesSaySSGvg",
                 "moduleName": "NBAssetTracking",
                 "implicit": true,
                 "declAttributes": [
@@ -6959,7 +6975,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiMessage:recordName:assetId:assetTrackingInfo:)",
+            "printedName": "init(apiMessage:recordNames:assetId:assetTrackingInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6975,9 +6991,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -6993,8 +7017,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NBAssetTracking7DataLogC10apiMessage10recordName7assetId0iB4InfoACSS_S2SAA05AssetbK0Ctcfc",
-            "mangledName": "$s15NBAssetTracking7DataLogC10apiMessage10recordName7assetId0iB4InfoACSS_S2SAA05AssetbK0Ctcfc",
+            "usr": "s:15NBAssetTracking7DataLogC10apiMessage11recordNames7assetId0iB4InfoACSS_SaySSGSSAA05AssetbK0Ctcfc",
+            "mangledName": "$s15NBAssetTracking7DataLogC10apiMessage11recordNames7assetId0iB4InfoACSS_SaySSGSSAA05AssetbK0Ctcfc",
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "AccessControl"
@@ -18052,42 +18076,63 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 543,
+      "length": 32,
+      "value": "\"assetTrackingLocationConfigKey\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 33,
+      "value": "\"assetTrackingNotificationConfig\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 33,
+      "value": "\"assetTrackingdataTrackingConfig\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 35,
+      "value": "\"assetTrackingallowVirtualLocation\""
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 664,
+      "offset": 946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1017,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1367,
+      "offset": 3248,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1468,
+      "offset": 3349,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 20989,
+      "offset": 22514,
       "length": 4,
       "value": "true"
     },
