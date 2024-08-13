@@ -530,7 +530,7 @@
           {
             "kind": "Function",
             "name": "shouldReport",
-            "printedName": "shouldReport(recordName:locationDatas:)",
+            "printedName": "shouldReport(recordNames:locationDatas:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -539,9 +539,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -559,8 +567,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NBAssetDataCollectLib05AssetC0P12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
-            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
+            "usr": "s:21NBAssetDataCollectLib05AssetC0P12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC0P12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtF",
             "moduleName": "NBAssetDataCollectLib",
             "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollect>",
             "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollect>",
@@ -680,7 +688,7 @@
           {
             "kind": "Function",
             "name": "shouldReport",
-            "printedName": "shouldReport(recordName:locationDataList:)",
+            "printedName": "shouldReport(recordNames:locationDataList:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -689,9 +697,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -709,8 +725,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
-            "mangledName": "$s21NBAssetDataCollectLib05AssetC8DelegateP12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
+            "usr": "s:21NBAssetDataCollectLib05AssetC8DelegateP12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib05AssetC8DelegateP12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtF",
             "moduleName": "NBAssetDataCollectLib",
             "genericSig": "<τ_0_0 where τ_0_0 : NBAssetDataCollectLib.AssetCollectDelegate>",
             "sugared_genericSig": "<Self where Self : NBAssetDataCollectLib.AssetCollectDelegate>",
@@ -2664,19 +2680,27 @@
         "children": [
           {
             "kind": "Var",
-            "name": "recordName",
-            "printedName": "recordName",
+            "name": "recordNames",
+            "printedName": "recordNames",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvp",
-            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvp",
+            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C11recordNamesSaySSGvp",
+            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C11recordNamesSaySSGvp",
             "moduleName": "NBAssetDataCollectLib",
             "declAttributes": [
               "Final",
@@ -2693,14 +2717,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvg",
-                "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordNameSSvg",
+                "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C11recordNamesSaySSGvg",
+                "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C11recordNamesSaySSGvg",
                 "moduleName": "NBAssetDataCollectLib",
                 "implicit": true,
                 "declAttributes": [
@@ -2857,9 +2889,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -2885,8 +2925,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordName08locationB0ACSS_SayAA0gB0CGSgtcfc",
-            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordName08locationB0ACSS_SayAA0gB0CGSgtcfc",
+            "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C10recordName08locationB0ACSaySSG_SayAA0gB0CGSgtcfc",
+            "mangledName": "$s21NBAssetDataCollectLib016UnReportLocationB0C10recordName08locationB0ACSaySSG_SayAA0gB0CGSgtcfc",
             "moduleName": "NBAssetDataCollectLib",
             "declAttributes": [
               "AccessControl"
@@ -3333,14 +3373,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySSF",
-            "mangledName": "$s21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySSF",
+            "usr": "s:21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySaySSGF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySaySSGF",
             "moduleName": "NBAssetDataCollectLib",
             "declAttributes": [
               "AccessControl"
@@ -3506,7 +3554,7 @@
           {
             "kind": "Function",
             "name": "shouldReport",
-            "printedName": "shouldReport(recordName:locationDataList:)",
+            "printedName": "shouldReport(recordNames:locationDataList:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3515,9 +3563,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -3535,8 +3591,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NBAssetDataCollectLib0aB0C12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
-            "mangledName": "$s21NBAssetDataCollectLib0aB0C12shouldReport10recordName08locationB4ListySS_SayAA08LocationB0CGtF",
+            "usr": "s:21NBAssetDataCollectLib0aB0C12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtF",
             "moduleName": "NBAssetDataCollectLib",
             "declAttributes": [
               "AccessControl"
@@ -4092,7 +4148,7 @@
           {
             "kind": "Function",
             "name": "shouldReport",
-            "printedName": "shouldReport(recordName:locationDatas:)",
+            "printedName": "shouldReport(recordNames:locationDatas:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4101,9 +4157,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -4121,8 +4185,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
-            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport10recordName13locationDatasySS_SayAA08LocationB0CGtF",
+            "usr": "s:21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtF",
+            "mangledName": "$s21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtF",
             "moduleName": "NBAssetDataCollectLib",
             "declAttributes": [
               "AccessControl"
@@ -4358,13 +4422,6 @@
       "offset": 447,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/NBAssetData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 479,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/ios\/nb-asset-tracking-ios\/NBAssetDataCollectLib\/AssetCollectionImp.swift",

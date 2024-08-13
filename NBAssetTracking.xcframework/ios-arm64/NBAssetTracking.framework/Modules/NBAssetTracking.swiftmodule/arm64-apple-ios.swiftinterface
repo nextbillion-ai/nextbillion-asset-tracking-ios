@@ -199,10 +199,10 @@ public protocol StationaryDetection {
 @objc open class DataLog : ObjectiveC.NSObject, Foundation.NSSecureCoding {
   @objc public static var supportsSecureCoding: Swift.Bool
   final public let apiMessage: Swift.String
-  final public let recordName: Swift.String
+  final public let recordNames: [Swift.String]
   final public let assetId: Swift.String
   final public let assetTrackingInfo: NBAssetTracking.AssetTrackingInfo
-  public init(apiMessage: Swift.String, recordName: Swift.String, assetId: Swift.String, assetTrackingInfo: NBAssetTracking.AssetTrackingInfo)
+  public init(apiMessage: Swift.String, recordNames: [Swift.String], assetId: Swift.String, assetTrackingInfo: NBAssetTracking.AssetTrackingInfo)
   public func toJSONDictionary() -> NBAssetTracking.JSONDictionary
   @objc public func encode(with coder: Foundation.NSCoder)
   @objc required public init?(coder: Foundation.NSCoder)
