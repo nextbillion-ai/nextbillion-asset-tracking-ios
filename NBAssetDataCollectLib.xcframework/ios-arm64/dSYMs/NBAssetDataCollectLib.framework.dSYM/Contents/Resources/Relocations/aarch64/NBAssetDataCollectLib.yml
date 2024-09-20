@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/qiu/Library/Developer/Xcode/DerivedData/NBAssetTracking-aexuotrrcrsmsygvtoertrbybcvl/Build/Intermediates.noindex/ArchiveIntermediates/NBAssetDataCollectLib/BuildProductsPath/Release-iphoneos/NBAssetDataCollectLib.framework/NBAssetDataCollectLib'
+binary-path:     '/Users/qiu/Library/Developer/Xcode/DerivedData/NBAssetTracking-cloyjhycjzhykwaehrwhlflkbdsx/Build/Intermediates.noindex/ArchiveIntermediates/NBAssetDataCollectLib/BuildProductsPath/Release-iphoneos/NBAssetDataCollectLib.framework/NBAssetDataCollectLib'
 relocations:
   - { offsetInCU: 0x33, offset: 0x72C, size: 0x8, addend: 0x0, symName: _NBAssetDataCollectLibVersionString, symObjAddr: 0x0, symBinAddr: 0x12510, symSize: 0x0 }
   - { offsetInCU: 0x67, offset: 0x760, size: 0x8, addend: 0x0, symName: _NBAssetDataCollectLibVersionNumber, symObjAddr: 0x40, symBinAddr: 0x12550, symSize: 0x0 }

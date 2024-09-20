@@ -71,6 +71,10 @@ public struct LatestLocation : Swift.Codable {
   open func makeRequest<T>(requestOption: NBAssetTracking.AssetRequest, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBAssetTrackingResponseCompletionHandler<T>) -> Foundation.URLSessionDataTask where T : Swift.Decodable, T : Swift.Encodable
   @objc deinit
 }
+extension NBAssetTracking.NBAssetTrackingService {
+  public func setCrossPlatformInfo(info: Swift.String)
+  public func setUserId(userId: Swift.String)
+}
 public struct TripData : Swift.Codable {
   public let trip: NBAssetTracking.Trip
   public func encode(to encoder: any Swift.Encoder) throws
@@ -161,6 +165,11 @@ public protocol AssetTrackingDelegate : ObjectiveC.NSObjectProtocol {
   func onLocationFailure(error: any Swift.Error)
   func onLocationServiceOff()
   func onTripStatusChanged(tripId: Swift.String, status: NBAssetTracking.TripStatus)
+}
+extension UIKit.UIDevice {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var isPluggedIn: Swift.Bool {
+    @objc get
+  }
 }
 public struct TrackLocation : Swift.Codable {
   public let accuracy: Swift.Double?
@@ -368,6 +377,7 @@ public enum TrackingMode : Swift.Int, Swift.Codable {
   open func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+public let gitRevision: Swift.String
 public struct AssetRequest {
 }
 @objc @_inheritsConvenienceInitializers open class DataTrackingConfig : ObjectiveC.NSObject, Swift.Codable {
@@ -420,6 +430,8 @@ public struct AssetRequest {
   open func deleteTrip(tripId: Swift.String, completionHandler: @escaping (_ tripId: Swift.String) -> Swift.Void, errorHandler: @escaping (NBAssetTracking.AssetError) -> Swift.Void)
   open func tripSummaray(tripId: Swift.String, completionHandler: @escaping (NBAssetTracking.TripSummary) -> Swift.Void, errorHandler: @escaping (NBAssetTracking.AssetError) -> Swift.Void)
   open func getTrip(tripId: Swift.String, completionHandler: @escaping (NBAssetTracking.Trip) -> Swift.Void, errorHandler: @escaping (NBAssetTracking.AssetError) -> Swift.Void)
+  open func setUserId(userId: Swift.String)
+  open func setCrossPlatformInfo(info: Swift.String)
   @objc deinit
 }
 @objc open class TripProfile : ObjectiveC.NSObject, Swift.Codable {
