@@ -279,6 +279,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -426,6 +427,12 @@ SWIFT_CLASS("_TtC15NBAssetTracking11TripProfile")
 @interface TripProfile : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@interface UIDevice (SWIFT_EXTENSION(NBAssetTracking))
+/// Returns a <code>Bool</code> whether the device is plugged in. Returns false if not an iOS device.
+@property (nonatomic, readonly) BOOL isPluggedIn;
 @end
 
 
@@ -737,6 +744,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -884,6 +892,12 @@ SWIFT_CLASS("_TtC15NBAssetTracking11TripProfile")
 @interface TripProfile : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@interface UIDevice (SWIFT_EXTENSION(NBAssetTracking))
+/// Returns a <code>Bool</code> whether the device is plugged in. Returns false if not an iOS device.
+@property (nonatomic, readonly) BOOL isPluggedIn;
 @end
 
 
