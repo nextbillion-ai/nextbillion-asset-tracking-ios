@@ -17988,1127 +17988,1127 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 255,
       "length": 72,
       "value": "\"Asset Tracking in on, please turn off asset tracking before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 37,
       "value": "\"You still have unsent location data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 65,
       "value": "\"Asset id is empty, please bind to an asset id Before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 73,
       "value": "\"There have a trip is in progress, please end the trip before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 255,
       "length": 72,
       "value": "\"Asset Tracking in on, please turn off asset tracking before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 37,
       "value": "\"You still have unsent location data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 65,
       "value": "\"Asset id is empty, please bind to an asset id Before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 73,
       "value": "\"There have a trip is in progress, please end the trip before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingApiFetcher.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingApiFetcher.swift",
       "kind": "StringLiteral",
       "offset": 960,
       "length": 48,
       "value": "\"Report111  -------- did set delegate ---------\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 17,
       "value": "\"NBAssetTracking.AssetTrackingInfo\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 31,
       "value": "\"NBAssetTrackingApiErrorDomain\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
       "kind": "StringLiteral",
       "offset": 876,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 10,
       "value": "\"asset_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 12,
       "value": "\"started_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 921,
       "length": 10,
       "value": "\"ended_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 957,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 995,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 10,
       "value": "\"asset_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 12,
       "value": "\"started_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 921,
       "length": 10,
       "value": "\"ended_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 957,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
       "offset": 995,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
       "offset": 528,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
       "offset": 528,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 18,
       "value": "\"NBAssetTracking.UpdateAssetProfile\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
       "offset": 1761,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
       "offset": 1761,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
       "offset": 1208,
       "length": 12,
       "value": "\"NBAssetTracking.AssetProfile\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 19,
       "value": "\"Trip id is empty.\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 64,
       "value": "\"Trip is not in progress. Please start a trip before ending it.\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 77,
       "value": "\"Trip is in progress. Please end the current trip before starting a new one.\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 65,
       "value": "\"Asset id is empty, please bind to an asset id Before continuing\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
       "offset": 555,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
       "offset": 590,
       "length": 3,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
       "offset": 628,
       "length": 3,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
       "offset": 663,
       "length": 3,
       "value": "304"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 683,
       "length": 10,
       "value": "\"NBAssetTracking.AssetError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 1165,
       "length": 12,
       "value": "\"NBAssetTracking.NetworkError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 1415,
       "length": 11,
       "value": "\"NBAssetTracking.NoDataError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 19,
       "value": "\"NBAssetTracking.UnreportedDataError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 1899,
       "length": 23,
       "value": "\"NBAssetTracking.ServiceRunningDataError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 2149,
       "length": 17,
       "value": "\"NBAssetTracking.EmptyAssetIdError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
       "offset": 2393,
       "length": 9,
       "value": "\"NBAssetTracking.TripError\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1373,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1435,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1474,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1598,
       "length": 17,
       "value": "\"latest_location\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1658,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1373,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1435,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1474,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1598,
       "length": 17,
       "value": "\"latest_location\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1658,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 21,
       "value": "\"lowBatteryStatusKey\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 32,
       "value": "\"assetTrackingLocationConfigKey\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 33,
       "value": "\"assetTrackingNotificationConfig\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 686,
       "length": 33,
       "value": "\"assetTrackingdataTrackingConfig\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 760,
       "length": 35,
       "value": "\"assetTrackingallowVirtualLocation\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 3248,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 3349,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 22514,
+      "offset": 22574,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 696,
       "length": 15,
       "value": "\"battery_level\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 15,
       "value": "\"tracking_mode\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 696,
       "length": 15,
       "value": "\"battery_level\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 15,
       "value": "\"tracking_mode\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 845,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 849,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 881,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 924,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 964,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 1004,
       "length": 4,
       "value": "0.02"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 1042,
       "length": 4,
       "value": "0.55"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "Array",
       "offset": 1082,
       "length": 15,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "Array",
       "offset": 1126,
       "length": 15,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "Array",
       "offset": 1175,
       "length": 15,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 1254,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 1316,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 1357,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
       "offset": 1394,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 1497,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 1613,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 1649,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
       "kind": "BooleanLiteral",
       "offset": 200,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
       "kind": "StringLiteral",
       "offset": 108,
       "length": 7,
       "value": "\"NBAssetTracking.DataLog\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 146,
       "length": 33,
       "value": "\"NB_ASSET_TRACKING_DEVICE_ID_KEY\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 32,
       "value": "\"NB_ASSET_TRACKING_ASSET_ID_KEY\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 288,
       "length": 47,
       "value": "\"NB_ASSET_TRACKING_CURRENT_TRACKING_STATUS_KEY\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 31,
       "value": "\"NB_ASSET_TRACKING_TRIP_ID_KEY\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 20,
       "value": "\"api.nextbillion.io\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "IntegerLiteral",
       "offset": 500,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "IntegerLiteral",
       "offset": 587,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 44,
       "value": "\"You still have %s unUploaded location data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
       "offset": 395,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
       "offset": 1765,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
       "offset": 2348,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
       "offset": 4811,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "StringLiteral",
       "offset": 161,
       "length": 23,
       "value": "\"NBAssetTracking.TrackingLocationUpdater\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
       "kind": "IntegerLiteral",
       "offset": 359,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
       "kind": "IntegerLiteral",
       "offset": 394,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 793,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 17,
       "value": "\"latest_location\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 793,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 17,
       "value": "\"latest_location\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 846,
       "length": 10,
       "value": "\"asset_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 12,
       "value": "\"started_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 10,
       "value": "\"ended_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 1062,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 846,
       "length": 10,
       "value": "\"asset_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 12,
       "value": "\"started_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 10,
       "value": "\"ended_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 1062,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/ApiErrorResponse.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/ApiErrorResponse.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 16,
       "value": "\"NBAssetTracking.ApiErrorResponse\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 2325,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 2421,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 14,
       "value": "\"NBAssetTracking.LocationConfig\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/GitVersion.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/GitVersion.swift",
       "kind": "StringLiteral",
       "offset": 25,
       "length": 9,
-      "value": "\"8f54ac2\""
+      "value": "\"2588acc\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
       "kind": "BooleanLiteral",
       "offset": 10429,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 11,
       "value": "\"NBAssetTracking.TripProfile\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
       "kind": "StringLiteral",
       "offset": 1736,
       "length": 17,
       "value": "\"NBAssetTracking.UpdateTripProfile\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 135,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 557,
       "length": 25,
       "value": "\"startTrackingIdentifier\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 751,
       "length": 24,
       "value": "\"stopTrackingIdentifier\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 22,
       "value": "\"lowBatteryIdentifier\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1115,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1275,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1431,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 1456,
       "length": 30,
       "value": "\"NBAssetTracking.DefaultAssetNotificationConfig\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
       "offset": 2674,
       "length": 94,
       "value": "\"Asset [assetId] is being tracked on another device. Tracking has been stopped on this device\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 3437,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 3506,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
       "offset": 907,
       "length": 13,
       "value": "\"geofence_id\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
+      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
       "offset": 907,
       "length": 13,
