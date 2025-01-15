@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y519kFnxgTvVdXwitLupIwwVKD4=
+		vIW689MxlV7fCtuN9OECTPD94EE=
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		wjzCbZxX3yKFE0JUQtO3A1HP87o=
+		g6kDXcY/OBdrtCccPhdlW1SZRyk=
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Xo4uBhWWMXYxmlGDH1P0FbOWSSM=
+		7Ycl3H7GSpNtyd5NnBfB2QVQgiY=
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DYATGP7oFGIQDm+m3tixWzjpxf0=
+		e3IwmQXbv3piT6pxoTMXOvyYtJE=
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		skpthIqoGGOAJCx9o5ZuvBDfBAQ=
+		LuSkcsUgUXmGTtdUiZfNktTLpik=
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DYATGP7oFGIQDm+m3tixWzjpxf0=
+		e3IwmQXbv3piT6pxoTMXOvyYtJE=
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tq6rdX4t97++NUhTZJ/T5qKhWDM=
+		fIt316ZzagWS91fJz4GF2Sjk12Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,21 +89,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ruHfqHozlom9Ph3ATJcHrFZlM1izHdN/jQTzdKccEPE=
+			Tj/CiCEufyjduwTU0TrWhyDSywMqqamC0jOHUsLNRCo=
 			</data>
 		</dict>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pPUZhtqNWKV4g/ygpLWgG7rwzV3n3K4IA/T5q2o0FI=
+			oIBYp9EoN9g2o567j3t960UWtLIkKiwhI1mvuyq4of8=
 			</data>
 		</dict>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oRQMyhoaZjPsUCVS4K7KOra6oeH8rjbZyRDC2CXNgA=
+			y7Vy75WLaXdbIDAwGoivlK08KidmKdYjsr7TWyUhNgg=
 			</data>
 		</dict>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4e+6aEILqXYkrbcfp1HV/XszMXm3KyTx8Ruq+dvBzU=
+			vw3hXYTZXIApdq6APVQ6EDSMgDTGlDiQxXUzbkoKujE=
 			</data>
 		</dict>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oRQMyhoaZjPsUCVS4K7KOra6oeH8rjbZyRDC2CXNgA=
+			y7Vy75WLaXdbIDAwGoivlK08KidmKdYjsr7TWyUhNgg=
 			</data>
 		</dict>
 		<key>Modules/NBAssetDataCollectLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JOn6ilhwy0UbstI3jntPViJdWnE+adaEDPROzEuDsqU=
+			TR4DeBevzIsqi6rrtqGwJIHKMv2G2OkWOBVmaQ8c/Uw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
