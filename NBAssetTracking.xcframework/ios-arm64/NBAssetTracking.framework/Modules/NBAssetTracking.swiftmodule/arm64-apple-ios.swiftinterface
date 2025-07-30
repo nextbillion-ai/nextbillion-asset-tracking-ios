@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NBAssetTracking
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NBAssetTracking
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import CoreLocation
 import CoreMotion
 import Foundation
@@ -13,10 +14,10 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public enum AssetTrackingApiExceptionType : Swift.String {
-  case ASSET_TRACKING_ON
-  case UN_UPLOADED_LOCATION_DATA
-  case EMPTY_ASSET_ID
-  case ASSET_TRIP_ON
+  case assetTrackingOn
+  case unUploadedLocationData
+  case emptyAssetId
+  case assetTripOn
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -24,9 +25,9 @@ public enum AssetTrackingApiExceptionType : Swift.String {
   }
 }
 public enum LocationPermissionResult {
-  case LOCATION_SERVICE_OFF
-  case PERMISSION_ENABLED
-  case PERMISSION_NOT_ENABLED
+  case locationServiceOff
+  case permissionEnabled
+  case permissionNotEnabled
   public static func == (a: NBAssetTracking.LocationPermissionResult, b: NBAssetTracking.LocationPermissionResult) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -65,10 +66,10 @@ public struct LatestLocation : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers open class NBAssetTrackingService {
-  public typealias NBAssetTrackingServiceVoidCompletionHandler = (_ responseCode: Swift.Int, _ error: Foundation.NSError?) -> Swift.Void
-  public typealias NBAssetTrackingResponseCompletionHandler<T> = (_ statusCode: Swift.Int, _ response: NBAssetTracking.ApiResponse<T>?, _ error: Foundation.NSError?) -> Swift.Void where T : Swift.Decodable, T : Swift.Encodable
+  public typealias ServiceVoidCompletionHandler = (_ responseCode: Swift.Int, _ error: Foundation.NSError?) -> Swift.Void
+  public typealias ResponseCompletionHandler<T> = (_ statusCode: Swift.Int, _ response: NBAssetTracking.ApiResponse<T>?, _ error: Foundation.NSError?) -> Swift.Void where T : Swift.Decodable, T : Swift.Encodable
   @discardableResult
-  open func makeRequest<T>(requestOption: NBAssetTracking.AssetRequest, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.NBAssetTrackingResponseCompletionHandler<T>) -> Foundation.URLSessionDataTask where T : Swift.Decodable, T : Swift.Encodable
+  open func makeRequest<T>(requestOption: NBAssetTracking.AssetRequest, completionHandler: @escaping NBAssetTracking.NBAssetTrackingService.ResponseCompletionHandler<T>) -> Foundation.URLSessionDataTask? where T : Swift.Decodable, T : Swift.Encodable
   @objc deinit
 }
 extension NBAssetTracking.NBAssetTrackingService {
@@ -112,7 +113,7 @@ public struct Trip : Swift.Codable {
 @_hasMissingDesignatedInitializers public class ErrorMessage {
   @objc deinit
 }
-public struct ErrorCode {
+public enum ErrorCode {
 }
 @objc @_hasMissingDesignatedInitializers public class AssetError : Foundation.NSError {
   public var errorCode: Swift.Int
@@ -167,7 +168,7 @@ public protocol AssetTrackingDelegate : ObjectiveC.NSObjectProtocol {
   func onTripStatusChanged(tripId: Swift.String, status: NBAssetTracking.TripStatus)
 }
 extension UIKit.UIDevice {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var isPluggedIn: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var isPluggedIn: Swift.Bool {
     @objc get
   }
 }
@@ -387,14 +388,14 @@ public struct AssetRequest {
   public var dataUploadingBatchWindow: Swift.Int
   public var shouldClearLocalDataWhenCollision: Swift.Bool
   public init(baseUrl: Swift.String, dataStorageSize: Swift.Int, dataUploadingBatchSize: Swift.Int, dataUploadingBatchWindow: Swift.Int, shouldClearLocalDataWhenCollision: Swift.Bool)
-  @objc convenience override dynamic public init()
+  @objc override convenience dynamic public init()
   @objc deinit
   open func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class AssetTracking : ObjectiveC.NSObject {
   public static let shared: NBAssetTracking.AssetTracking
-  public var delegate: (any NBAssetTracking.AssetTrackingDelegate)? {
+  weak public var delegate: (any NBAssetTracking.AssetTrackingDelegate)? {
     get
     set
   }
