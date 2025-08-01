@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NextBillionAssetTracking"
-  spec.version      = "1.3.0-dev.1"
+  spec.version      = "1.3.0-dev.2"
   spec.summary      = "The nextbillion.ai iOS AssetTracking cocoapods repo"
 
 

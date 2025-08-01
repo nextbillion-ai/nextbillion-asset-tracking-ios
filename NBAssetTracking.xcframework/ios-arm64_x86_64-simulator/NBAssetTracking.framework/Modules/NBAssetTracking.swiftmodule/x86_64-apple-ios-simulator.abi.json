@@ -1978,6 +1978,36 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserId",
+            "printedName": "getUserId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking0aB7ServiceC9getUserIdSSSgyF",
+            "mangledName": "$s15NBAssetTracking0aB7ServiceC9getUserIdSSSgyF",
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -15186,6 +15216,37 @@
             "declKind": "Func",
             "usr": "s:15NBAssetTracking05AssetB0C9setUserId04userF0ySS_tF",
             "mangledName": "$s15NBAssetTracking05AssetB0C9setUserId04userF0ySS_tF",
+            "moduleName": "NBAssetTracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserId",
+            "printedName": "getUserId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking05AssetB0C9getUserIdSSSgyF",
+            "mangledName": "$s15NBAssetTracking05AssetB0C9getUserIdSSSgyF",
             "moduleName": "NBAssetTracking",
             "isOpen": true,
             "declAttributes": [
