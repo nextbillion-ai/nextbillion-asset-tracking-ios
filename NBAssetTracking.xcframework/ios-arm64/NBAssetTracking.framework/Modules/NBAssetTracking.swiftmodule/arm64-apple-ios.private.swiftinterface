@@ -402,7 +402,7 @@ public struct AssetRequest {
   }
   open func initialize(apiKey: Swift.String)
   open func setKeyOfHeader(headerName: Swift.String)
-  open func startTracking()
+  open func startTracking() -> Swift.Bool
   open func stopTracking()
   open func getApiKey() -> Swift.String
   open func getAssetId() -> Swift.String
@@ -453,6 +453,8 @@ public enum TrackingDisableType {
   case none
   case normal
   case assetIdTaken
+  case internalServerError
+  case tokenUnavailable
   public static func == (a: NBAssetTracking.TrackingDisableType, b: NBAssetTracking.TrackingDisableType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

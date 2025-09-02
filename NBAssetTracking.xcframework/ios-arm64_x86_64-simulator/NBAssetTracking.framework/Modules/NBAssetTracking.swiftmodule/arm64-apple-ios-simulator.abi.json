@@ -14033,13 +14033,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15NBAssetTracking05AssetB0C05startB0yyF",
-            "mangledName": "$s15NBAssetTracking05AssetB0C05startB0yyF",
+            "usr": "s:15NBAssetTracking05AssetB0C05startB0SbyF",
+            "mangledName": "$s15NBAssetTracking05AssetB0C05startB0SbyF",
             "moduleName": "NBAssetTracking",
             "isOpen": true,
             "declAttributes": [
@@ -16055,7 +16056,10 @@
             "declKind": "EnumElement",
             "usr": "s:15NBAssetTracking0B11DisableTypeO4noneyA2CmF",
             "mangledName": "$s15NBAssetTracking0B11DisableTypeO4noneyA2CmF",
-            "moduleName": "NBAssetTracking"
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16092,7 +16096,10 @@
             "declKind": "EnumElement",
             "usr": "s:15NBAssetTracking0B11DisableTypeO6normalyA2CmF",
             "mangledName": "$s15NBAssetTracking0B11DisableTypeO6normalyA2CmF",
-            "moduleName": "NBAssetTracking"
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16129,7 +16136,90 @@
             "declKind": "EnumElement",
             "usr": "s:15NBAssetTracking0B11DisableTypeO12assetIdTakenyA2CmF",
             "mangledName": "$s15NBAssetTracking0B11DisableTypeO12assetIdTakenyA2CmF",
-            "moduleName": "NBAssetTracking"
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "internalServerError",
+            "printedName": "internalServerError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NBAssetTracking.TrackingDisableType.Type) -> NBAssetTracking.TrackingDisableType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingDisableType",
+                    "printedName": "NBAssetTracking.TrackingDisableType",
+                    "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NBAssetTracking.TrackingDisableType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingDisableType",
+                        "printedName": "NBAssetTracking.TrackingDisableType",
+                        "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15NBAssetTracking0B11DisableTypeO19internalServerErroryA2CmF",
+            "mangledName": "$s15NBAssetTracking0B11DisableTypeO19internalServerErroryA2CmF",
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenUnavailable",
+            "printedName": "tokenUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NBAssetTracking.TrackingDisableType.Type) -> NBAssetTracking.TrackingDisableType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingDisableType",
+                    "printedName": "NBAssetTracking.TrackingDisableType",
+                    "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NBAssetTracking.TrackingDisableType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingDisableType",
+                        "printedName": "NBAssetTracking.TrackingDisableType",
+                        "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15NBAssetTracking0B11DisableTypeO16tokenUnavailableyA2CmF",
+            "mangledName": "$s15NBAssetTracking0B11DisableTypeO16tokenUnavailableyA2CmF",
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -16233,7 +16323,8 @@
         "mangledName": "$s15NBAssetTracking0B11DisableTypeO",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -19048,7 +19139,7 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 17899,
+      "offset": 18263,
       "length": 4,
       "value": "true"
     },
@@ -19279,14 +19370,14 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 2285,
+      "offset": 2327,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 4638,
+      "offset": 4748,
       "length": 4,
       "value": "true"
     },
@@ -19414,12 +19505,12 @@
       "kind": "StringLiteral",
       "offset": 25,
       "length": 9,
-      "value": "\"5bacff2\""
+      "value": "\"4e98f15\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
       "kind": "BooleanLiteral",
-      "offset": 10287,
+      "offset": 10332,
       "length": 4,
       "value": "true"
     },
@@ -19447,63 +19538,63 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 1021,
       "length": 25,
       "value": "\"startTrackingIdentifier\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 1206,
       "length": 24,
       "value": "\"stopTrackingIdentifier\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 910,
+      "offset": 1384,
       "length": 22,
       "value": "\"lowBatteryIdentifier\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1083,
+      "offset": 1557,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1239,
+      "offset": 1713,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1391,
+      "offset": 1865,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2610,
+      "offset": 3084,
       "length": 94,
       "value": "\"Asset [assetId] is being tracked on another device. Tracking has been stopped on this device\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3365,
+      "offset": 3839,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3434,
+      "offset": 3908,
       "length": 2,
       "value": "10"
     },
