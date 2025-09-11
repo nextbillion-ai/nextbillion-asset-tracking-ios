@@ -1,18 +1,15 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NBAssetTracking",
+    "printedName": "NBAssetTracking",
     "children": [
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -21,8 +18,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "ASSET_TRACKING_ON",
-            "printedName": "ASSET_TRACKING_ON",
+            "name": "assetTrackingOn",
+            "printedName": "assetTrackingOn",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -52,14 +49,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO17ASSET_TRACKING_ONyA2CmF",
-            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO17ASSET_TRACKING_ONyA2CmF",
+            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO05assetB2OnyA2CmF",
+            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO05assetB2OnyA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
             "kind": "Var",
-            "name": "UN_UPLOADED_LOCATION_DATA",
-            "printedName": "UN_UPLOADED_LOCATION_DATA",
+            "name": "unUploadedLocationData",
+            "printedName": "unUploadedLocationData",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -89,14 +86,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO25UN_UPLOADED_LOCATION_DATAyA2CmF",
-            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO25UN_UPLOADED_LOCATION_DATAyA2CmF",
+            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO22unUploadedLocationDatayA2CmF",
+            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO22unUploadedLocationDatayA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
             "kind": "Var",
-            "name": "EMPTY_ASSET_ID",
-            "printedName": "EMPTY_ASSET_ID",
+            "name": "emptyAssetId",
+            "printedName": "emptyAssetId",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -126,14 +123,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO14EMPTY_ASSET_IDyA2CmF",
-            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO14EMPTY_ASSET_IDyA2CmF",
+            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO05emptyC2IdyA2CmF",
+            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO05emptyC2IdyA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
             "kind": "Var",
-            "name": "ASSET_TRIP_ON",
-            "printedName": "ASSET_TRIP_ON",
+            "name": "assetTripOn",
+            "printedName": "assetTripOn",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -163,8 +160,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO13ASSET_TRIP_ONyA2CmF",
-            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO13ASSET_TRIP_ONyA2CmF",
+            "usr": "s:15NBAssetTracking05AssetB16ApiExceptionTypeO11assetTripOnyA2CmF",
+            "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO11assetTripOnyA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
@@ -245,10 +242,25 @@
         "mangledName": "$s15NBAssetTracking05AssetB16ApiExceptionTypeO",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -294,8 +306,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "LOCATION_SERVICE_OFF",
-            "printedName": "LOCATION_SERVICE_OFF",
+            "name": "locationServiceOff",
+            "printedName": "locationServiceOff",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -325,14 +337,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking24LocationPermissionResultO20LOCATION_SERVICE_OFFyA2CmF",
-            "mangledName": "$s15NBAssetTracking24LocationPermissionResultO20LOCATION_SERVICE_OFFyA2CmF",
+            "usr": "s:15NBAssetTracking24LocationPermissionResultO18locationServiceOffyA2CmF",
+            "mangledName": "$s15NBAssetTracking24LocationPermissionResultO18locationServiceOffyA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
             "kind": "Var",
-            "name": "PERMISSION_ENABLED",
-            "printedName": "PERMISSION_ENABLED",
+            "name": "permissionEnabled",
+            "printedName": "permissionEnabled",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -362,14 +374,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking24LocationPermissionResultO18PERMISSION_ENABLEDyA2CmF",
-            "mangledName": "$s15NBAssetTracking24LocationPermissionResultO18PERMISSION_ENABLEDyA2CmF",
+            "usr": "s:15NBAssetTracking24LocationPermissionResultO17permissionEnabledyA2CmF",
+            "mangledName": "$s15NBAssetTracking24LocationPermissionResultO17permissionEnabledyA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
             "kind": "Var",
-            "name": "PERMISSION_NOT_ENABLED",
-            "printedName": "PERMISSION_NOT_ENABLED",
+            "name": "permissionNotEnabled",
+            "printedName": "permissionNotEnabled",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -399,8 +411,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:15NBAssetTracking24LocationPermissionResultO22PERMISSION_NOT_ENABLEDyA2CmF",
-            "mangledName": "$s15NBAssetTracking24LocationPermissionResultO22PERMISSION_NOT_ENABLEDyA2CmF",
+            "usr": "s:15NBAssetTracking24LocationPermissionResultO20permissionNotEnabledyA2CmF",
+            "mangledName": "$s15NBAssetTracking24LocationPermissionResultO20permissionNotEnabledyA2CmF",
             "moduleName": "NBAssetTracking"
           },
           {
@@ -510,6 +522,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -529,10 +555,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
@@ -556,10 +579,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
@@ -1031,6 +1051,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1085,10 +1119,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -1274,9 +1305,24 @@
         "mangledName": "$s15NBAssetTracking12TripLocationV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1298,10 +1344,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -1727,9 +1770,24 @@
         "mangledName": "$s15NBAssetTracking14LatestLocationV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1775,9 +1833,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "URLSessionDataTask",
-                "printedName": "Foundation.URLSessionDataTask",
-                "usr": "c:objc(cs)NSURLSessionDataTask"
+                "name": "Optional",
+                "printedName": "Foundation.URLSessionDataTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionDataTask",
+                    "printedName": "Foundation.URLSessionDataTask",
+                    "usr": "c:objc(cs)NSURLSessionDataTask"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1847,8 +1913,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15NBAssetTracking0aB7ServiceC11makeRequest13requestOption17completionHandlerSo20NSURLSessionDataTaskCAA05AssetE0V_ySi_AA11ApiResponseVyxGSgSo7NSErrorCSgtctSeRzSERzlF",
-            "mangledName": "$s15NBAssetTracking0aB7ServiceC11makeRequest13requestOption17completionHandlerSo20NSURLSessionDataTaskCAA05AssetE0V_ySi_AA11ApiResponseVyxGSgSo7NSErrorCSgtctSeRzSERzlF",
+            "usr": "s:15NBAssetTracking0aB7ServiceC11makeRequest13requestOption17completionHandlerSo20NSURLSessionDataTaskCSgAA05AssetE0V_ySi_AA11ApiResponseVyxGSgSo7NSErrorCSgtctSeRzSERzlF",
+            "mangledName": "$s15NBAssetTracking0aB7ServiceC11makeRequest13requestOption17completionHandlerSo20NSURLSessionDataTaskCSgAA05AssetE0V_ySi_AA11ApiResponseVyxGSgSo7NSErrorCSgtctSeRzSERzlF",
             "moduleName": "NBAssetTracking",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
@@ -1912,6 +1978,36 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserId",
+            "printedName": "getUserId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking0aB7ServiceC9getUserIdSSSgyF",
+            "mangledName": "$s15NBAssetTracking0aB7ServiceC9getUserIdSSSgyF",
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1922,7 +2018,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2043,6 +2155,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2898,6 +3024,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2917,10 +3057,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
@@ -3094,6 +3231,7 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -3114,6 +3252,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3369,6 +3521,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3439,18 +3605,50 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
         "name": "ErrorCode",
         "printedName": "ErrorCode",
-        "declKind": "Struct",
-        "usr": "s:15NBAssetTracking9ErrorCodeV",
-        "mangledName": "$s15NBAssetTracking9ErrorCodeV",
+        "declKind": "Enum",
+        "usr": "s:15NBAssetTracking9ErrorCodeO",
+        "mangledName": "$s15NBAssetTracking9ErrorCodeO",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3719,6 +3917,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3801,6 +4013,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3889,6 +4115,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3971,6 +4211,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4059,6 +4313,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4141,6 +4409,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4229,6 +4511,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4290,10 +4586,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -4401,9 +4694,24 @@
         "mangledName": "$s15NBAssetTracking17AssetResponseDataV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5180,6 +5488,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5196,18 +5518,15 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -5410,13 +5729,30 @@
         "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
         "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
@@ -5425,29 +5761,29 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetTracking"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBAssetTracking"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NBAssetTracking"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
@@ -5456,22 +5792,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -5484,13 +5806,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
@@ -5504,10 +5823,21 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NBAssetTracking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -6125,9 +6455,24 @@
         "mangledName": "$s15NBAssetTracking13TrackLocationV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -6156,8 +6501,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -6165,13 +6510,6 @@
         "kind": "Import",
         "name": "CoreMotion",
         "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -6279,6 +6617,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6499,6 +6853,22 @@
         "moduleName": "NBAssetTracking",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6727,6 +7097,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "StationaryDetection",
@@ -7260,6 +7644,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7321,18 +7719,15 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -7348,10 +7743,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -7608,9 +8000,24 @@
         "mangledName": "$s15NBAssetTracking10TripStatusO",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7629,8 +8036,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
@@ -7639,8 +8046,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -7656,10 +8063,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -7858,6 +8262,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -8468,9 +8886,24 @@
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<T>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -8570,10 +9003,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -9307,9 +9737,24 @@
         "mangledName": "$s15NBAssetTracking5AssetV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9331,10 +9776,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -9345,7 +9787,24 @@
         "mangledName": "$s15NBAssetTracking12ApiKeyHeaderV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -9666,6 +10125,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9745,6 +10218,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9872,6 +10359,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9995,6 +10496,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -10130,6 +10645,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -11199,6 +11728,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11402,6 +11945,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11421,20 +11978,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
@@ -11448,10 +11999,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -11631,6 +12179,7 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -11639,6 +12188,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11692,18 +12255,15 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -11941,10 +12501,25 @@
         "mangledName": "$s15NBAssetTracking0B4ModeO",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12395,6 +12970,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12494,10 +13083,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -12508,7 +13094,24 @@
         "mangledName": "$s15NBAssetTracking12AssetRequestV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -12516,20 +13119,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -13038,9 +13635,9 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
               "Convenience",
               "AccessControl",
+              "Override",
               "RawDocComment"
             ],
             "init_kind": "Convenience"
@@ -13108,6 +13705,7 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -13129,6 +13727,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -13261,17 +13873,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any NBAssetTracking.AssetTrackingDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AssetTrackingDelegate",
-                    "printedName": "any NBAssetTracking.AssetTrackingDelegate",
-                    "usr": "s:15NBAssetTracking05AssetB8DelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any NBAssetTracking.AssetTrackingDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -13281,9 +13884,11 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl",
               "RawDocComment"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -13428,13 +14033,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15NBAssetTracking05AssetB0C05startB0yyF",
-            "mangledName": "$s15NBAssetTracking05AssetB0C05startB0yyF",
+            "usr": "s:15NBAssetTracking05AssetB0C05startB0SbyF",
+            "mangledName": "$s15NBAssetTracking05AssetB0C05startB0SbyF",
             "moduleName": "NBAssetTracking",
             "isOpen": true,
             "declAttributes": [
@@ -14621,6 +15227,37 @@
           },
           {
             "kind": "Function",
+            "name": "getUserId",
+            "printedName": "getUserId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NBAssetTracking05AssetB0C9getUserIdSSSgyF",
+            "mangledName": "$s15NBAssetTracking05AssetB0C9getUserIdSSSgyF",
+            "moduleName": "NBAssetTracking",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setCrossPlatformInfo",
             "printedName": "setCrossPlatformInfo(info:)",
             "children": [
@@ -14664,6 +15301,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14720,10 +15371,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -14957,6 +15605,7 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -14977,6 +15626,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -15269,6 +15932,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15320,18 +15997,22 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NBAssetTracking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NBAssetTracking"
       },
@@ -15375,7 +16056,10 @@
             "declKind": "EnumElement",
             "usr": "s:15NBAssetTracking0B11DisableTypeO4noneyA2CmF",
             "mangledName": "$s15NBAssetTracking0B11DisableTypeO4noneyA2CmF",
-            "moduleName": "NBAssetTracking"
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15412,7 +16096,10 @@
             "declKind": "EnumElement",
             "usr": "s:15NBAssetTracking0B11DisableTypeO6normalyA2CmF",
             "mangledName": "$s15NBAssetTracking0B11DisableTypeO6normalyA2CmF",
-            "moduleName": "NBAssetTracking"
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -15449,7 +16136,90 @@
             "declKind": "EnumElement",
             "usr": "s:15NBAssetTracking0B11DisableTypeO12assetIdTakenyA2CmF",
             "mangledName": "$s15NBAssetTracking0B11DisableTypeO12assetIdTakenyA2CmF",
-            "moduleName": "NBAssetTracking"
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "internalServerError",
+            "printedName": "internalServerError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NBAssetTracking.TrackingDisableType.Type) -> NBAssetTracking.TrackingDisableType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingDisableType",
+                    "printedName": "NBAssetTracking.TrackingDisableType",
+                    "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NBAssetTracking.TrackingDisableType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingDisableType",
+                        "printedName": "NBAssetTracking.TrackingDisableType",
+                        "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15NBAssetTracking0B11DisableTypeO19internalServerErroryA2CmF",
+            "mangledName": "$s15NBAssetTracking0B11DisableTypeO19internalServerErroryA2CmF",
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenUnavailable",
+            "printedName": "tokenUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NBAssetTracking.TrackingDisableType.Type) -> NBAssetTracking.TrackingDisableType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingDisableType",
+                    "printedName": "NBAssetTracking.TrackingDisableType",
+                    "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NBAssetTracking.TrackingDisableType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingDisableType",
+                        "printedName": "NBAssetTracking.TrackingDisableType",
+                        "usr": "s:15NBAssetTracking0B11DisableTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15NBAssetTracking0B11DisableTypeO16tokenUnavailableyA2CmF",
+            "mangledName": "$s15NBAssetTracking0B11DisableTypeO16tokenUnavailableyA2CmF",
+            "moduleName": "NBAssetTracking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -15553,9 +16323,24 @@
         "mangledName": "$s15NBAssetTracking0B11DisableTypeO",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15571,13 +16356,6 @@
             "mangledName": "$sSH"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -16219,6 +16997,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -16644,6 +17436,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -16759,6 +17565,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -16926,8 +17746,8 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
-              "Override",
-              "AccessControl"
+              "AccessControl",
+              "Override"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -16993,6 +17813,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -17160,8 +17994,8 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
-              "Override",
-              "AccessControl"
+              "AccessControl",
+              "Override"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -17230,6 +18064,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17284,10 +18132,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NBAssetTracking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NBAssetTracking"
       },
       {
         "kind": "TypeDecl",
@@ -17837,9 +18682,24 @@
         "mangledName": "$s15NBAssetTracking8TripStopV",
         "moduleName": "NBAssetTracking",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -17879,6 +18739,7 @@
             "moduleName": "NBAssetTracking",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC",
@@ -17919,6 +18780,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIDevice",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -17932,6 +18794,34 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17988,1129 +18878,737 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
-      "offset": 255,
+      "offset": 252,
       "length": 72,
       "value": "\"Asset Tracking in on, please turn off asset tracking before continuing\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
-      "offset": 365,
+      "offset": 359,
       "length": 37,
       "value": "\"You still have unsent location data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 421,
       "length": 65,
       "value": "\"Asset id is empty, please bind to an asset id Before continuing\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 510,
       "length": 73,
       "value": "\"There have a trip is in progress, please end the trip before continuing\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
-      "kind": "StringLiteral",
-      "offset": 255,
-      "length": 72,
-      "value": "\"Asset Tracking in on, please turn off asset tracking before continuing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
-      "kind": "StringLiteral",
-      "offset": 365,
-      "length": 37,
-      "value": "\"You still have unsent location data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
-      "kind": "StringLiteral",
-      "offset": 429,
-      "length": 65,
-      "value": "\"Asset id is empty, please bind to an asset id Before continuing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingApiExceptionType.swift",
-      "kind": "StringLiteral",
-      "offset": 520,
-      "length": 73,
-      "value": "\"There have a trip is in progress, please end the trip before continuing\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingApiFetcher.swift",
-      "kind": "StringLiteral",
-      "offset": 960,
-      "length": 48,
-      "value": "\"Report111  -------- did set delegate ---------\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 17,
-      "value": "\"NBAssetTracking.AssetTrackingInfo\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 31,
       "value": "\"NBAssetTrackingApiErrorDomain\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NBAssetTrackingService.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 563,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 722,
       "length": 10,
       "value": "\"asset_id\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 819,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 880,
       "length": 12,
       "value": "\"started_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 916,
       "length": 10,
       "value": "\"ended_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 952,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 990,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
-      "offset": 727,
-      "length": 10,
-      "value": "\"asset_id\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 11,
-      "value": "\"meta_data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
-      "kind": "StringLiteral",
-      "offset": 885,
-      "length": 12,
-      "value": "\"started_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
-      "kind": "StringLiteral",
-      "offset": 921,
-      "length": 10,
-      "value": "\"ended_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
-      "kind": "StringLiteral",
-      "offset": 957,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/Trip.swift",
-      "kind": "StringLiteral",
-      "offset": 995,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 528,
+      "offset": 512,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
       "kind": "StringLiteral",
-      "offset": 528,
+      "offset": 1654,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
-      "offset": 143,
-      "length": 18,
-      "value": "\"NBAssetTracking.UpdateAssetProfile\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1761,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1761,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1208,
-      "length": 12,
-      "value": "\"NBAssetTracking.AssetProfile\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
+      "offset": 162,
       "length": 19,
       "value": "\"Trip id is empty.\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
-      "offset": 222,
+      "offset": 217,
       "length": 64,
       "value": "\"Trip is not in progress. Please start a trip before ending it.\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
-      "offset": 319,
+      "offset": 314,
       "length": 77,
       "value": "\"Trip is in progress. Please end the current trip before starting a new one.\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "StringLiteral",
-      "offset": 427,
+      "offset": 422,
       "length": 65,
       "value": "\"Asset id is empty, please bind to an asset id Before continuing\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
-      "offset": 555,
+      "offset": 548,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
-      "offset": 590,
+      "offset": 583,
       "length": 3,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
-      "offset": 628,
+      "offset": 621,
       "length": 3,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
       "kind": "IntegerLiteral",
-      "offset": 663,
+      "offset": 656,
       "length": 3,
       "value": "304"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
-      "offset": 683,
-      "length": 10,
-      "value": "\"NBAssetTracking.AssetError\""
+      "offset": 1314,
+      "length": 11,
+      "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1165,
-      "length": 12,
-      "value": "\"NBAssetTracking.NetworkError\""
+      "offset": 1376,
+      "length": 13,
+      "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
       "offset": 1415,
-      "length": 11,
-      "value": "\"NBAssetTracking.NoDataError\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
-      "kind": "StringLiteral",
-      "offset": 1653,
-      "length": 19,
-      "value": "\"NBAssetTracking.UnreportedDataError\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
-      "kind": "StringLiteral",
-      "offset": 1899,
-      "length": 23,
-      "value": "\"NBAssetTracking.ServiceRunningDataError\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
-      "kind": "StringLiteral",
-      "offset": 2149,
-      "length": 17,
-      "value": "\"NBAssetTracking.EmptyAssetIdError\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetError.swift",
-      "kind": "StringLiteral",
-      "offset": 2393,
-      "length": 9,
-      "value": "\"NBAssetTracking.TripError\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1373,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1435,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1474,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
+      "offset": 1453,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1598,
+      "offset": 1539,
       "length": 17,
       "value": "\"latest_location\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1658,
+      "offset": 1599,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 1373,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1435,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1474,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1598,
-      "length": 17,
-      "value": "\"latest_location\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/AssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 1658,
-      "length": 11,
-      "value": "\"meta_data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 478,
       "length": 21,
       "value": "\"lowBatteryStatusKey\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 534,
       "length": 32,
       "value": "\"assetTrackingLocationConfigKey\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 605,
       "length": 33,
       "value": "\"assetTrackingNotificationConfig\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 686,
+      "offset": 677,
       "length": 33,
       "value": "\"assetTrackingdataTrackingConfig\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 760,
+      "offset": 751,
       "length": 35,
       "value": "\"assetTrackingallowVirtualLocation\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 858,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 921,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 3248,
+      "offset": 3221,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3349,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 22574,
+      "offset": 18263,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 696,
       "length": 15,
       "value": "\"battery_level\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 15,
       "value": "\"tracking_mode\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 614,
-      "length": 11,
-      "value": "\"meta_data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 696,
-      "length": 15,
-      "value": "\"battery_level\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TrackLocation.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 15,
-      "value": "\"tracking_mode\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 845,
+      "offset": 757,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 849,
+      "offset": 763,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 881,
+      "offset": 791,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 924,
+      "offset": 830,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 964,
+      "offset": 869,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1004,
+      "offset": 908,
       "length": 4,
       "value": "0.02"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1042,
+      "offset": 941,
       "length": 4,
       "value": "0.55"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "Array",
-      "offset": 1082,
+      "offset": 976,
       "length": 15,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "Array",
-      "offset": 1126,
+      "offset": 1021,
       "length": 15,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "Array",
-      "offset": 1175,
+      "offset": 1070,
       "length": 15,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1254,
+      "offset": 1140,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1316,
+      "offset": 1197,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1357,
+      "offset": 1234,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "FloatLiteral",
-      "offset": 1394,
+      "offset": 1271,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1497,
+      "offset": 1366,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 1613,
+      "offset": 1474,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/StationaryDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 1649,
+      "offset": 1510,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 200,
+      "offset": 195,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/DataLog.swift",
-      "kind": "StringLiteral",
-      "offset": 108,
-      "length": 7,
-      "value": "\"NBAssetTracking.DataLog\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 146,
       "length": 33,
       "value": "\"NB_ASSET_TRACKING_DEVICE_ID_KEY\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 32,
       "value": "\"NB_ASSET_TRACKING_ASSET_ID_KEY\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 288,
       "length": 47,
       "value": "\"NB_ASSET_TRACKING_CURRENT_TRACKING_STATUS_KEY\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 31,
       "value": "\"NB_ASSET_TRACKING_TRIP_ID_KEY\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 432,
       "length": 20,
       "value": "\"api.nextbillion.io\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 500,
+      "offset": 496,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 546,
+      "offset": 542,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
+      "offset": 583,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 638,
       "length": 44,
       "value": "\"You still have %s unUploaded location data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 395,
+      "offset": 400,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 1765,
+      "offset": 1725,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 2348,
+      "offset": 2327,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 4811,
+      "offset": 4748,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 23,
-      "value": "\"NBAssetTracking.TrackingLocationUpdater\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 359,
+      "offset": 349,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 394,
+      "offset": 379,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/RingBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 478,
+      "offset": 453,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 793,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 17,
       "value": "\"latest_location\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
-      "offset": 602,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
-      "kind": "StringLiteral",
-      "offset": 718,
-      "length": 11,
-      "value": "\"meta_data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
-      "kind": "StringLiteral",
-      "offset": 793,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripAsset.swift",
-      "kind": "StringLiteral",
-      "offset": 860,
-      "length": 17,
-      "value": "\"latest_location\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
-      "kind": "StringLiteral",
-      "offset": 846,
+      "offset": 845,
       "length": 10,
       "value": "\"asset_id\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 989,
       "length": 12,
       "value": "\"started_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 1025,
       "length": 10,
       "value": "\"ended_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
-      "offset": 1062,
+      "offset": 1061,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1099,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
-      "kind": "StringLiteral",
-      "offset": 846,
-      "length": 10,
-      "value": "\"asset_id\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
-      "kind": "StringLiteral",
-      "offset": 990,
-      "length": 12,
-      "value": "\"started_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
-      "kind": "StringLiteral",
-      "offset": 1026,
-      "length": 10,
-      "value": "\"ended_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
-      "kind": "StringLiteral",
-      "offset": 1062,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripSummary.swift",
-      "kind": "StringLiteral",
-      "offset": 1100,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/ApiErrorResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 118,
-      "length": 16,
-      "value": "\"NBAssetTracking.ApiErrorResponse\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 195,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 195,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 213,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 195,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 213,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2325,
+      "offset": 2276,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2421,
+      "offset": 2372,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/LocationConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 471,
-      "length": 14,
-      "value": "\"NBAssetTracking.LocationConfig\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/GitVersion.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/GitVersion.swift",
       "kind": "StringLiteral",
       "offset": 25,
       "length": 9,
-      "value": "\"2588acc\""
+      "value": "\"4e98f15\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
       "kind": "BooleanLiteral",
-      "offset": 10429,
+      "offset": 10332,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 114,
-      "length": 11,
-      "value": "\"NBAssetTracking.TripProfile\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/TripProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1736,
-      "length": 17,
-      "value": "\"NBAssetTracking.UpdateTripProfile\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 135,
+      "offset": 154,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 219,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 230,
+      "offset": 249,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 1021,
       "length": 25,
       "value": "\"startTrackingIdentifier\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 1206,
       "length": 24,
       "value": "\"stopTrackingIdentifier\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 1384,
       "length": 22,
       "value": "\"lowBatteryIdentifier\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1115,
+      "offset": 1557,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1275,
+      "offset": 1713,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1431,
+      "offset": 1865,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1456,
-      "length": 30,
-      "value": "\"NBAssetTracking.DefaultAssetNotificationConfig\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2674,
+      "offset": 3084,
       "length": 94,
       "value": "\"Asset [assetId] is being tracked on another device. Tracking has been stopped on this device\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3437,
+      "offset": 3839,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/NotificationConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3506,
+      "offset": 3908,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
-      "offset": 865,
+      "offset": 826,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
       "kind": "StringLiteral",
-      "offset": 907,
-      "length": 13,
-      "value": "\"geofence_id\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
-      "kind": "StringLiteral",
-      "offset": 865,
-      "length": 11,
-      "value": "\"meta_data\""
-    },
-    {
-      "filePath": "\/Users\/qiuyu\/asset-tracking-ios\/NBAssetTracking\/Response\/TripStop.swift",
-      "kind": "StringLiteral",
-      "offset": 907,
+      "offset": 864,
       "length": 13,
       "value": "\"geofence_id\""
     }
