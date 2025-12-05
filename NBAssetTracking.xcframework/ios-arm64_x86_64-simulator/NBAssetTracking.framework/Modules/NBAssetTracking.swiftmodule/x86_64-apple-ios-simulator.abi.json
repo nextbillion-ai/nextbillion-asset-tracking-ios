@@ -19138,8 +19138,29 @@
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3486,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 3609,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3724,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTrackingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 18263,
+      "offset": 20148,
       "length": 4,
       "value": "true"
     },
@@ -19505,7 +19526,7 @@
       "kind": "StringLiteral",
       "offset": 25,
       "length": 9,
-      "value": "\"4e98f15\""
+      "value": "\"c99bf5c\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
