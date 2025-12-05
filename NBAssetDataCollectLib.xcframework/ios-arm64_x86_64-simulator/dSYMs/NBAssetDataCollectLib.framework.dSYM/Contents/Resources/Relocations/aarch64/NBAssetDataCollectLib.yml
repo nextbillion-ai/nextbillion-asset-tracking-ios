@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/qiu/Library/Developer/Xcode/DerivedData/NBAssetTracking-cloyjhycjzhykwaehrwhlflkbdsx/Build/Products/Release-iphonesimulator/NBAssetDataCollectLib.framework/NBAssetDataCollectLib'
 relocations:
-  - { offset: 0x778, size: 0x8, addend: 0x0, symName: _NBAssetDataCollectLibVersionString, symObjAddr: 0x0, symBinAddr: 0xD730, symSize: 0x0 }
-  - { offset: 0x7AC, size: 0x8, addend: 0x0, symName: _NBAssetDataCollectLibVersionNumber, symObjAddr: 0x40, symBinAddr: 0xD770, symSize: 0x0 }
+  - { offset: 0x778, size: 0x8, addend: 0x0, symName: _NBAssetDataCollectLibVersionString, symObjAddr: 0x0, symBinAddr: 0xD830, symSize: 0x0 }
+  - { offset: 0x7AC, size: 0x8, addend: 0x0, symName: _NBAssetDataCollectLibVersionNumber, symObjAddr: 0x40, symBinAddr: 0xD870, symSize: 0x0 }
   - { offset: 0x7E8, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC6ConfigC34ASSET_COLLECTION_IMPLEMENTION_PATHSSvgZ', symObjAddr: 0x0, symBinAddr: 0x1268, symSize: 0x1C }
   - { offset: 0x9EF, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x5AC, symBinAddr: 0x1814, symSize: 0x40 }
   - { offset: 0xA02, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x5EC, symBinAddr: 0x1854, symSize: 0x44 }
@@ -141,17 +141,17 @@ relocations:
   - { offset: 0x5479, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib9MMKVUtilsC021getLastUnUploadRecordB0AA0h14ReportLocationB0CSgyFZTf4d_n', symObjAddr: 0x3418, symBinAddr: 0x7F30, symSize: 0x22C }
   - { offset: 0x5701, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib9MMKVUtilsC9deleteAllyyFZTf4d_n', symObjAddr: 0x3644, symBinAddr: 0x815C, symSize: 0x25C }
   - { offset: 0x591B, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib9MMKVUtilsC012deleteOldestB8IfNeededyySiFZTf4nd_n', symObjAddr: 0x38A0, symBinAddr: 0x83B8, symSize: 0x288 }
-  - { offset: 0x5FEA, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtF', symObjAddr: 0x153C, symBinAddr: 0x9AF0, symSize: 0x128 }
-  - { offset: 0x60D2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CAA05AssetC8DelegateA2aDP12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtFTW', symObjAddr: 0x1708, symBinAddr: 0x9CBC, symSize: 0x4 }
-  - { offset: 0x60ED, size: 0x8, addend: 0x0, symName: ___swift_mutable_project_boxed_opaque_existential_1, symObjAddr: 0x170C, symBinAddr: 0x9CC0, symSize: 0x28 }
-  - { offset: 0x6100, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC0_pWOc', symObjAddr: 0x1734, symBinAddr: 0x9CE8, symSize: 0x44 }
-  - { offset: 0x6113, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x1778, symBinAddr: 0x9D2C, symSize: 0x24 }
-  - { offset: 0x6126, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC0_pWOb', symObjAddr: 0x17BC, symBinAddr: 0x9D50, symSize: 0x18 }
-  - { offset: 0x6139, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC8Delegate_pSgXwWOh', symObjAddr: 0x1898, symBinAddr: 0x9E2C, symSize: 0x24 }
-  - { offset: 0x614C, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CMU', symObjAddr: 0x18BC, symBinAddr: 0x9E50, symSize: 0x8 }
-  - { offset: 0x615F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CMa', symObjAddr: 0x18C4, symBinAddr: 0x9E58, symSize: 0x38 }
-  - { offset: 0x6172, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CMr', symObjAddr: 0x18FC, symBinAddr: 0x9E90, symSize: 0xA0 }
-  - { offset: 0x6185, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DateVSgMa', symObjAddr: 0x1A58, symBinAddr: 0x9FEC, symSize: 0x54 }
+  - { offset: 0x5FEA, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtF', symObjAddr: 0x1630, symBinAddr: 0x9BE4, symSize: 0x128 }
+  - { offset: 0x60D2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CAA05AssetC8DelegateA2aDP12shouldReport11recordNames08locationB4ListySaySSG_SayAA08LocationB0CGtFTW', symObjAddr: 0x17FC, symBinAddr: 0x9DB0, symSize: 0x4 }
+  - { offset: 0x60ED, size: 0x8, addend: 0x0, symName: ___swift_mutable_project_boxed_opaque_existential_1, symObjAddr: 0x1800, symBinAddr: 0x9DB4, symSize: 0x28 }
+  - { offset: 0x6100, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC0_pWOc', symObjAddr: 0x1828, symBinAddr: 0x9DDC, symSize: 0x44 }
+  - { offset: 0x6113, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x186C, symBinAddr: 0x9E20, symSize: 0x24 }
+  - { offset: 0x6126, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC0_pWOb', symObjAddr: 0x18B0, symBinAddr: 0x9E44, symSize: 0x18 }
+  - { offset: 0x6139, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib05AssetC8Delegate_pSgXwWOh', symObjAddr: 0x198C, symBinAddr: 0x9F20, symSize: 0x24 }
+  - { offset: 0x614C, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CMU', symObjAddr: 0x19B0, symBinAddr: 0x9F44, symSize: 0x8 }
+  - { offset: 0x615F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CMa', symObjAddr: 0x19B8, symBinAddr: 0x9F4C, symSize: 0x38 }
+  - { offset: 0x6172, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CMr', symObjAddr: 0x19F0, symBinAddr: 0x9F84, symSize: 0xA0 }
+  - { offset: 0x6185, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DateVSgMa', symObjAddr: 0x1B58, symBinAddr: 0xA0EC, symSize: 0x54 }
   - { offset: 0x619F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C05assetC033_80C63F61D440779878A9573037FF775ALLAA05AssetC0_pSgvM', symObjAddr: 0x0, symBinAddr: 0x8640, symSize: 0x30 }
   - { offset: 0x61DD, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CACycfC', symObjAddr: 0x34, symBinAddr: 0x8670, symSize: 0x90 }
   - { offset: 0x620D, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CACycfc', symObjAddr: 0xC4, symBinAddr: 0x8700, symSize: 0x7C }
@@ -166,74 +166,75 @@ relocations:
   - { offset: 0x6901, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C02onB13ReportSuccessyySaySSGF', symObjAddr: 0xA94, symBinAddr: 0x9048, symSize: 0x1C8 }
   - { offset: 0x6AB3, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C02onB10ReportFailyyF', symObjAddr: 0xC5C, symBinAddr: 0x9210, symSize: 0x4 }
   - { offset: 0x6AD2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C010cleanCacheB0yyF', symObjAddr: 0xC60, symBinAddr: 0x9214, symSize: 0xA4 }
-  - { offset: 0x6B26, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C08getAssetC6ConfigAA0fcG0CSgyF', symObjAddr: 0xD04, symBinAddr: 0x92B8, symSize: 0x8 }
-  - { offset: 0x6B4A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C08getAssetC6ConfigAA0fcG0CSgyF', symObjAddr: 0xD04, symBinAddr: 0x92B8, symSize: 0x8 }
-  - { offset: 0x6B63, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C08setAssetC6Config05assetcG0yAA0fcG0C_tF', symObjAddr: 0xD0C, symBinAddr: 0x92C0, symSize: 0x18C }
-  - { offset: 0x6C1E, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C16outOfRerouteDateSbyF', symObjAddr: 0xE98, symBinAddr: 0x944C, symSize: 0x180 }
-  - { offset: 0x6D87, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C6reportyyF', symObjAddr: 0x1018, symBinAddr: 0x95CC, symSize: 0x220 }
-  - { offset: 0x6F01, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C21performReportFailTaskyyF', symObjAddr: 0x1238, symBinAddr: 0x97EC, symSize: 0x304 }
-  - { offset: 0x71F2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0Cfd', symObjAddr: 0x1664, symBinAddr: 0x9C18, symSize: 0x4C }
-  - { offset: 0x721F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CfD', symObjAddr: 0x16B0, symBinAddr: 0x9C64, symSize: 0x58 }
-  - { offset: 0x77AE, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10initializeyyF', symObjAddr: 0x388, symBinAddr: 0xA3C8, symSize: 0x1DC }
-  - { offset: 0x78CE, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivg', symObjAddr: 0x694, symBinAddr: 0xA6D4, symSize: 0x8 }
-  - { offset: 0x78EC, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivg', symObjAddr: 0x694, symBinAddr: 0xA6D4, symSize: 0x8 }
-  - { offset: 0x7906, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivg', symObjAddr: 0x69C, symBinAddr: 0xA6DC, symSize: 0x8 }
-  - { offset: 0x7924, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivg', symObjAddr: 0x69C, symBinAddr: 0xA6DC, symSize: 0x8 }
-  - { offset: 0x793D, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC21currentCacheTableNameSSyF', symObjAddr: 0x708, symBinAddr: 0xA724, symSize: 0x40 }
-  - { offset: 0x798A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivs', symObjAddr: 0x748, symBinAddr: 0xA764, symSize: 0xC0 }
-  - { offset: 0x7A19, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivM', symObjAddr: 0x808, symBinAddr: 0xA824, symSize: 0x1C }
-  - { offset: 0x7A94, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivM.resume.0', symObjAddr: 0x824, symBinAddr: 0xA840, symSize: 0xD4 }
-  - { offset: 0x7B1E, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivs', symObjAddr: 0x8F8, symBinAddr: 0xA914, symSize: 0x8 }
-  - { offset: 0x7B43, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivs', symObjAddr: 0x8F8, symBinAddr: 0xA914, symSize: 0x8 }
-  - { offset: 0x7B64, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM', symObjAddr: 0x900, symBinAddr: 0xA91C, symSize: 0x18 }
-  - { offset: 0x7BD0, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM.resume.0', symObjAddr: 0x918, symBinAddr: 0xA934, symSize: 0xC }
-  - { offset: 0x7BFC, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM.resume.0', symObjAddr: 0x918, symBinAddr: 0xA934, symSize: 0xC }
-  - { offset: 0x7C0F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM.resume.0', symObjAddr: 0x918, symBinAddr: 0xA934, symSize: 0xC }
-  - { offset: 0x7C4A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivg', symObjAddr: 0x924, symBinAddr: 0xA940, symSize: 0x8 }
-  - { offset: 0x7C68, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivg', symObjAddr: 0x924, symBinAddr: 0xA940, symSize: 0x8 }
-  - { offset: 0x7C81, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivs', symObjAddr: 0x92C, symBinAddr: 0xA948, symSize: 0xC4 }
-  - { offset: 0x7D10, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivM', symObjAddr: 0x9F0, symBinAddr: 0xAA0C, symSize: 0x1C }
-  - { offset: 0x7D8B, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivM.resume.0', symObjAddr: 0xA0C, symBinAddr: 0xAA28, symSize: 0xE4 }
-  - { offset: 0x7E50, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC5write08locationB0yAA08LocationB0C_tF', symObjAddr: 0xAF0, symBinAddr: 0xAB0C, symSize: 0x8C }
-  - { offset: 0x7F92, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC021getLastUnUploadRecordB0AA0j14ReportLocationB0CSgyF', symObjAddr: 0xB7C, symBinAddr: 0xAB98, symSize: 0x4 }
-  - { offset: 0x7FAE, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC021getLastUnUploadRecordB0AA0j14ReportLocationB0CSgyF', symObjAddr: 0xB7C, symBinAddr: 0xAB98, symSize: 0x4 }
-  - { offset: 0x7FBF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC6delete6recordySS_tF', symObjAddr: 0xB80, symBinAddr: 0xAB9C, symSize: 0x4 }
-  - { offset: 0x7FD3, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC9deleteAllyyF', symObjAddr: 0xB84, symBinAddr: 0xABA0, symSize: 0x8 }
-  - { offset: 0x7FF1, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC9deleteAllyyF', symObjAddr: 0xB84, symBinAddr: 0xABA0, symSize: 0x8 }
-  - { offset: 0x8043, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtF', symObjAddr: 0xB8C, symBinAddr: 0xABA8, symSize: 0xBC }
-  - { offset: 0x8181, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11forceReportyyF', symObjAddr: 0xD10, symBinAddr: 0xAC64, symSize: 0x728 }
-  - { offset: 0x8789, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivgTW', symObjAddr: 0x1438, symBinAddr: 0xB38C, symSize: 0xC }
-  - { offset: 0x87DE, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivsTW', symObjAddr: 0x1444, symBinAddr: 0xB398, symSize: 0x20 }
-  - { offset: 0x8817, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivMTW', symObjAddr: 0x1464, symBinAddr: 0xB3B8, symSize: 0x20 }
-  - { offset: 0x8870, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivMTW.resume.0', symObjAddr: 0x1484, symBinAddr: 0xB3D8, symSize: 0x20 }
-  - { offset: 0x88A1, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP13maxCacheCountSivgTW', symObjAddr: 0x14A4, symBinAddr: 0xB3F8, symSize: 0xC }
-  - { offset: 0x88F6, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP13maxCacheCountSivsTW', symObjAddr: 0x14B0, symBinAddr: 0xB404, symSize: 0xC }
-  - { offset: 0x8976, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP13maxCacheCountSivMTW', symObjAddr: 0x14BC, symBinAddr: 0xB410, symSize: 0x20 }
-  - { offset: 0x89D0, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivgTW', symObjAddr: 0x14DC, symBinAddr: 0xB430, symSize: 0xC }
-  - { offset: 0x8A25, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivsTW', symObjAddr: 0x14E8, symBinAddr: 0xB43C, symSize: 0x20 }
-  - { offset: 0x8A5E, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivMTW', symObjAddr: 0x1508, symBinAddr: 0xB45C, symSize: 0x20 }
-  - { offset: 0x8AB7, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivMTW.resume.0', symObjAddr: 0x1528, symBinAddr: 0xB47C, symSize: 0x20 }
-  - { offset: 0x8AEE, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10initializeyyFTW', symObjAddr: 0x16C8, symBinAddr: 0xB61C, symSize: 0x20 }
-  - { offset: 0x8B0A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP5write08locationB0yAA08LocationB0C_tFTW', symObjAddr: 0x16E8, symBinAddr: 0xB63C, symSize: 0x20 }
-  - { offset: 0x8B52, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP9deleteAllyyFTW', symObjAddr: 0x170C, symBinAddr: 0xB65C, symSize: 0xC }
-  - { offset: 0x8BC2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtFTW', symObjAddr: 0x1718, symBinAddr: 0xB668, symSize: 0x20 }
-  - { offset: 0x8BFB, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP013getUnUploadedB4SizeSiyFTW', symObjAddr: 0x1738, symBinAddr: 0xB688, symSize: 0x4 }
-  - { offset: 0x8C1A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP013getUnUploadedB4SizeSiyFTW', symObjAddr: 0x1738, symBinAddr: 0xB688, symSize: 0x4 }
-  - { offset: 0x8C2E, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP013getUnUploadedB4SizeSiyFTW', symObjAddr: 0x1738, symBinAddr: 0xB688, symSize: 0x4 }
-  - { offset: 0x8C41, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11forceReportyyFTW', symObjAddr: 0x1740, symBinAddr: 0xB68C, symSize: 0x20 }
-  - { offset: 0x8C7A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP21currentCacheTableNameSSyFTW', symObjAddr: 0x1760, symBinAddr: 0xB6AC, symSize: 0x44 }
-  - { offset: 0x8CE5, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC6delete6recordySS_tFTf4nd_n', symObjAddr: 0x17A4, symBinAddr: 0xB6F0, symSize: 0x134 }
-  - { offset: 0x8D8A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCMa', symObjAddr: 0x1A00, symBinAddr: 0xB94C, symSize: 0x20 }
-  - { offset: 0x8DC6, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0A7LogUtilC8logDebug_4file6method4lineyx_S2SSitlFZSS_Tt3g5', symObjAddr: 0x0, symBinAddr: 0xA040, symSize: 0x1EC }
-  - { offset: 0x8EBF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCACycfC', symObjAddr: 0x1EC, symBinAddr: 0xA22C, symSize: 0x5C }
-  - { offset: 0x8EEF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvg', symObjAddr: 0x248, symBinAddr: 0xA288, symSize: 0x38 }
-  - { offset: 0x8F0A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvs', symObjAddr: 0x280, symBinAddr: 0xA2C0, symSize: 0x5C }
-  - { offset: 0x8F30, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvM', symObjAddr: 0x2DC, symBinAddr: 0xA31C, symSize: 0x68 }
-  - { offset: 0x8F4D, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCACycfc', symObjAddr: 0x348, symBinAddr: 0xA388, symSize: 0x40 }
-  - { offset: 0x9068, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC010checkCacheB033_F147A82EAC35FD9C74DA1A07017A9A67LLSbyF', symObjAddr: 0x564, symBinAddr: 0xA5A4, symSize: 0x130 }
-  - { offset: 0x9197, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCfd', symObjAddr: 0x6A4, symBinAddr: 0xA6E4, symSize: 0x1C }
-  - { offset: 0x91C4, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCfD', symObjAddr: 0x6E4, symBinAddr: 0xA700, symSize: 0x24 }
-  - { offset: 0x936A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP8delegateAA0eC8Delegate_pSgvgTW', symObjAddr: 0x1548, symBinAddr: 0xB49C, symSize: 0x44 }
-  - { offset: 0x93BC, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP8delegateAA0eC8Delegate_pSgvsTW', symObjAddr: 0x158C, symBinAddr: 0xB4E0, symSize: 0x60 }
-  - { offset: 0x9407, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP8delegateAA0eC8Delegate_pSgvMTW', symObjAddr: 0x15EC, symBinAddr: 0xB540, symSize: 0x6C }
+  - { offset: 0x6B26, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C020getLastUnReportAssetB0AA0gh8LocationB0CSgyF', symObjAddr: 0xD04, symBinAddr: 0x92B8, symSize: 0xF4 }
+  - { offset: 0x6B9B, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C08getAssetC6ConfigAA0fcG0CSgyF', symObjAddr: 0xDF8, symBinAddr: 0x93AC, symSize: 0x8 }
+  - { offset: 0x6BBF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C08getAssetC6ConfigAA0fcG0CSgyF', symObjAddr: 0xDF8, symBinAddr: 0x93AC, symSize: 0x8 }
+  - { offset: 0x6BD8, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C08setAssetC6Config05assetcG0yAA0fcG0C_tF', symObjAddr: 0xE00, symBinAddr: 0x93B4, symSize: 0x18C }
+  - { offset: 0x6C93, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C16outOfRerouteDateSbyF', symObjAddr: 0xF8C, symBinAddr: 0x9540, symSize: 0x180 }
+  - { offset: 0x6DFC, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C6reportyyF', symObjAddr: 0x110C, symBinAddr: 0x96C0, symSize: 0x220 }
+  - { offset: 0x6F76, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0C21performReportFailTaskyyF', symObjAddr: 0x132C, symBinAddr: 0x98E0, symSize: 0x304 }
+  - { offset: 0x7267, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0Cfd', symObjAddr: 0x1758, symBinAddr: 0x9D0C, symSize: 0x4C }
+  - { offset: 0x7294, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0aB0CfD', symObjAddr: 0x17A4, symBinAddr: 0x9D58, symSize: 0x58 }
+  - { offset: 0x7823, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10initializeyyF', symObjAddr: 0x388, symBinAddr: 0xA4C8, symSize: 0x1DC }
+  - { offset: 0x7943, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivg', symObjAddr: 0x694, symBinAddr: 0xA7D4, symSize: 0x8 }
+  - { offset: 0x7961, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivg', symObjAddr: 0x694, symBinAddr: 0xA7D4, symSize: 0x8 }
+  - { offset: 0x797B, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivg', symObjAddr: 0x69C, symBinAddr: 0xA7DC, symSize: 0x8 }
+  - { offset: 0x7999, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivg', symObjAddr: 0x69C, symBinAddr: 0xA7DC, symSize: 0x8 }
+  - { offset: 0x79B2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC21currentCacheTableNameSSyF', symObjAddr: 0x708, symBinAddr: 0xA824, symSize: 0x40 }
+  - { offset: 0x79FF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivs', symObjAddr: 0x748, symBinAddr: 0xA864, symSize: 0xC0 }
+  - { offset: 0x7A8E, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivM', symObjAddr: 0x808, symBinAddr: 0xA924, symSize: 0x1C }
+  - { offset: 0x7B09, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC10cacheCountSivM.resume.0', symObjAddr: 0x824, symBinAddr: 0xA940, symSize: 0xD4 }
+  - { offset: 0x7B93, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivs', symObjAddr: 0x8F8, symBinAddr: 0xAA14, symSize: 0x8 }
+  - { offset: 0x7BB8, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivs', symObjAddr: 0x8F8, symBinAddr: 0xAA14, symSize: 0x8 }
+  - { offset: 0x7BD9, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM', symObjAddr: 0x900, symBinAddr: 0xAA1C, symSize: 0x18 }
+  - { offset: 0x7C45, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM.resume.0', symObjAddr: 0x918, symBinAddr: 0xAA34, symSize: 0xC }
+  - { offset: 0x7C71, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM.resume.0', symObjAddr: 0x918, symBinAddr: 0xAA34, symSize: 0xC }
+  - { offset: 0x7C84, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC13maxCacheCountSivM.resume.0', symObjAddr: 0x918, symBinAddr: 0xAA34, symSize: 0xC }
+  - { offset: 0x7CBF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivg', symObjAddr: 0x924, symBinAddr: 0xAA40, symSize: 0x8 }
+  - { offset: 0x7CDD, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivg', symObjAddr: 0x924, symBinAddr: 0xAA40, symSize: 0x8 }
+  - { offset: 0x7CF6, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivs', symObjAddr: 0x92C, symBinAddr: 0xAA48, symSize: 0xC4 }
+  - { offset: 0x7D85, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivM', symObjAddr: 0x9F0, symBinAddr: 0xAB0C, symSize: 0x1C }
+  - { offset: 0x7E00, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11batchWindowSivM.resume.0', symObjAddr: 0xA0C, symBinAddr: 0xAB28, symSize: 0xE4 }
+  - { offset: 0x7EC5, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC5write08locationB0yAA08LocationB0C_tF', symObjAddr: 0xAF0, symBinAddr: 0xAC0C, symSize: 0x8C }
+  - { offset: 0x8007, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC021getLastUnUploadRecordB0AA0j14ReportLocationB0CSgyF', symObjAddr: 0xB7C, symBinAddr: 0xAC98, symSize: 0x4 }
+  - { offset: 0x8023, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC021getLastUnUploadRecordB0AA0j14ReportLocationB0CSgyF', symObjAddr: 0xB7C, symBinAddr: 0xAC98, symSize: 0x4 }
+  - { offset: 0x8034, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC6delete6recordySS_tF', symObjAddr: 0xB80, symBinAddr: 0xAC9C, symSize: 0x4 }
+  - { offset: 0x8048, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC9deleteAllyyF', symObjAddr: 0xB84, symBinAddr: 0xACA0, symSize: 0x8 }
+  - { offset: 0x8066, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC9deleteAllyyF', symObjAddr: 0xB84, symBinAddr: 0xACA0, symSize: 0x8 }
+  - { offset: 0x80B8, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtF', symObjAddr: 0xB8C, symBinAddr: 0xACA8, symSize: 0xBC }
+  - { offset: 0x81F6, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC11forceReportyyF', symObjAddr: 0xD10, symBinAddr: 0xAD64, symSize: 0x728 }
+  - { offset: 0x87FE, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivgTW', symObjAddr: 0x1438, symBinAddr: 0xB48C, symSize: 0xC }
+  - { offset: 0x8853, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivsTW', symObjAddr: 0x1444, symBinAddr: 0xB498, symSize: 0x20 }
+  - { offset: 0x888C, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivMTW', symObjAddr: 0x1464, symBinAddr: 0xB4B8, symSize: 0x20 }
+  - { offset: 0x88E5, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10cacheCountSivMTW.resume.0', symObjAddr: 0x1484, symBinAddr: 0xB4D8, symSize: 0x20 }
+  - { offset: 0x8916, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP13maxCacheCountSivgTW', symObjAddr: 0x14A4, symBinAddr: 0xB4F8, symSize: 0xC }
+  - { offset: 0x896B, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP13maxCacheCountSivsTW', symObjAddr: 0x14B0, symBinAddr: 0xB504, symSize: 0xC }
+  - { offset: 0x89EB, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP13maxCacheCountSivMTW', symObjAddr: 0x14BC, symBinAddr: 0xB510, symSize: 0x20 }
+  - { offset: 0x8A45, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivgTW', symObjAddr: 0x14DC, symBinAddr: 0xB530, symSize: 0xC }
+  - { offset: 0x8A9A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivsTW', symObjAddr: 0x14E8, symBinAddr: 0xB53C, symSize: 0x20 }
+  - { offset: 0x8AD3, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivMTW', symObjAddr: 0x1508, symBinAddr: 0xB55C, symSize: 0x20 }
+  - { offset: 0x8B2C, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11batchWindowSivMTW.resume.0', symObjAddr: 0x1528, symBinAddr: 0xB57C, symSize: 0x20 }
+  - { offset: 0x8B63, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP10initializeyyFTW', symObjAddr: 0x16C8, symBinAddr: 0xB71C, symSize: 0x20 }
+  - { offset: 0x8B7F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP5write08locationB0yAA08LocationB0C_tFTW', symObjAddr: 0x16E8, symBinAddr: 0xB73C, symSize: 0x20 }
+  - { offset: 0x8BC7, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP9deleteAllyyFTW', symObjAddr: 0x170C, symBinAddr: 0xB75C, symSize: 0xC }
+  - { offset: 0x8C37, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP12shouldReport11recordNames13locationDatasySaySSG_SayAA08LocationB0CGtFTW', symObjAddr: 0x1718, symBinAddr: 0xB768, symSize: 0x20 }
+  - { offset: 0x8C70, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP013getUnUploadedB4SizeSiyFTW', symObjAddr: 0x1738, symBinAddr: 0xB788, symSize: 0x4 }
+  - { offset: 0x8C8F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP013getUnUploadedB4SizeSiyFTW', symObjAddr: 0x1738, symBinAddr: 0xB788, symSize: 0x4 }
+  - { offset: 0x8CA3, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP013getUnUploadedB4SizeSiyFTW', symObjAddr: 0x1738, symBinAddr: 0xB788, symSize: 0x4 }
+  - { offset: 0x8CB6, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP11forceReportyyFTW', symObjAddr: 0x1740, symBinAddr: 0xB78C, symSize: 0x20 }
+  - { offset: 0x8CEF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP21currentCacheTableNameSSyFTW', symObjAddr: 0x1760, symBinAddr: 0xB7AC, symSize: 0x44 }
+  - { offset: 0x8D5A, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC6delete6recordySS_tFTf4nd_n', symObjAddr: 0x17A4, symBinAddr: 0xB7F0, symSize: 0x134 }
+  - { offset: 0x8DFF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCMa', symObjAddr: 0x1A00, symBinAddr: 0xBA4C, symSize: 0x20 }
+  - { offset: 0x8E3B, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib0A7LogUtilC8logDebug_4file6method4lineyx_S2SSitlFZSS_Tt3g5', symObjAddr: 0x0, symBinAddr: 0xA140, symSize: 0x1EC }
+  - { offset: 0x8F34, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCACycfC', symObjAddr: 0x1EC, symBinAddr: 0xA32C, symSize: 0x5C }
+  - { offset: 0x8F64, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvg', symObjAddr: 0x248, symBinAddr: 0xA388, symSize: 0x38 }
+  - { offset: 0x8F7F, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvs', symObjAddr: 0x280, symBinAddr: 0xA3C0, symSize: 0x5C }
+  - { offset: 0x8FA5, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC8delegateAA0eC8Delegate_pSgvM', symObjAddr: 0x2DC, symBinAddr: 0xA41C, symSize: 0x68 }
+  - { offset: 0x8FC2, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCACycfc', symObjAddr: 0x348, symBinAddr: 0xA488, symSize: 0x40 }
+  - { offset: 0x90DD, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpC010checkCacheB033_F147A82EAC35FD9C74DA1A07017A9A67LLSbyF', symObjAddr: 0x564, symBinAddr: 0xA6A4, symSize: 0x130 }
+  - { offset: 0x920C, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCfd', symObjAddr: 0x6A4, symBinAddr: 0xA7E4, symSize: 0x1C }
+  - { offset: 0x9239, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCfD', symObjAddr: 0x6E4, symBinAddr: 0xA800, symSize: 0x24 }
+  - { offset: 0x93DF, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP8delegateAA0eC8Delegate_pSgvgTW', symObjAddr: 0x1548, symBinAddr: 0xB59C, symSize: 0x44 }
+  - { offset: 0x9431, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP8delegateAA0eC8Delegate_pSgvsTW', symObjAddr: 0x158C, symBinAddr: 0xB5E0, symSize: 0x60 }
+  - { offset: 0x947C, size: 0x8, addend: 0x0, symName: '_$s21NBAssetDataCollectLib18AssetCollectionImpCAA0eC0A2aDP8delegateAA0eC8Delegate_pSgvMTW', symObjAddr: 0x15EC, symBinAddr: 0xB640, symSize: 0x6C }
 ...

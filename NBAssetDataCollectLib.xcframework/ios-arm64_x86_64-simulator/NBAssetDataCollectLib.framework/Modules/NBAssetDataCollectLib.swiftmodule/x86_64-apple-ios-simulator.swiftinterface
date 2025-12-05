@@ -94,6 +94,7 @@ public class NBAssetData {
   public func onDataReportSuccess(_ recordNames: [Swift.String])
   public func onDataReportFail()
   public func cleanCacheData()
+  public func getLastUnReportAssetData() -> NBAssetDataCollectLib.UnReportLocationData?
   public func getAssetCollectConfig() -> NBAssetDataCollectLib.AssetCollectConfig?
   public func setAssetCollectConfig(assetCollectConfig: NBAssetDataCollectLib.AssetCollectConfig)
   public func outOfRerouteDate() -> Swift.Bool

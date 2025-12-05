@@ -3490,6 +3490,36 @@
           },
           {
             "kind": "Function",
+            "name": "getLastUnReportAssetData",
+            "printedName": "getLastUnReportAssetData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NBAssetDataCollectLib.UnReportLocationData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnReportLocationData",
+                    "printedName": "NBAssetDataCollectLib.UnReportLocationData",
+                    "usr": "s:21NBAssetDataCollectLib016UnReportLocationB0C"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NBAssetDataCollectLib0aB0C020getLastUnReportAssetB0AA0gh8LocationB0CSgyF",
+            "mangledName": "$s21NBAssetDataCollectLib0aB0C020getLastUnReportAssetB0AA0gh8LocationB0CSgyF",
+            "moduleName": "NBAssetDataCollectLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getAssetCollectConfig",
             "printedName": "getAssetCollectConfig()",
             "children": [
