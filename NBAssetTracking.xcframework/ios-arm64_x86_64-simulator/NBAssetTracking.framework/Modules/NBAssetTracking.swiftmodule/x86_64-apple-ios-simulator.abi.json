@@ -3980,6 +3980,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -4076,6 +4083,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -4178,6 +4192,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -4274,6 +4295,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -4376,6 +4404,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -4475,6 +4510,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -4571,6 +4613,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -5614,7 +5663,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -6832,7 +6881,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -7013,7 +7062,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -19384,21 +19433,28 @@
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 1725,
+      "offset": 485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1832,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 2327,
+      "offset": 2765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/TrackingLocationUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 4748,
+      "offset": 5649,
       "length": 4,
       "value": "true"
     },
@@ -19526,7 +19582,7 @@
       "kind": "StringLiteral",
       "offset": 25,
       "length": 9,
-      "value": "\"c99bf5c\""
+      "value": "\"9345f15\""
     },
     {
       "filePath": "\/Users\/qiu\/Desktop\/nb_workspace\/GitHub\/asset-tracking-ios\/NBAssetTracking\/AssetTracking.swift",
