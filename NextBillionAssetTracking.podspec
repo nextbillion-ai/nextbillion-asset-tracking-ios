@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NextBillionAssetTracking"
-  spec.version      = "1.3.1"
+  spec.version      = "1.3.2"
   spec.summary      = "The nextbillion.ai iOS AssetTracking cocoapods repo"
 
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.authors      = { "qiuyu" => "qiuyu@nextbillion.ai", "zhengshen" => "zhengshen@nextbillion.ai" }
   
-  spec.source = { :git => "https://github.com/nextbillion-ai/nextbillion-asset-tracking-ios.git" }
+  spec.source = { :git => "https://github.com/nextbillion-ai/nextbillion-asset-tracking-ios.git", :tag => spec.version.to_s }
   
   spec.vendored_frameworks = '*.xcframework'
   spec.platform     = :ios, '12.0'

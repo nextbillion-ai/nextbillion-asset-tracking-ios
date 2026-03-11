@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NBAssetDataCollectLib
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import MMKV
 @_exported import NBAssetDataCollectLib
@@ -14,14 +14,18 @@ public protocol AssetCollect {
   var cacheCount: Swift.Int { get set }
   var maxCacheCount: Swift.Int { get set }
   var batchWindow: Swift.Int { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any NBAssetDataCollectLib.AssetCollectDelegate)? { get set }
+  #endif
   func initialize()
   func write(locationData: NBAssetDataCollectLib.LocationData)
   func delete(record: Swift.String)
   func deleteAll()
   func shouldReport(recordNames: [Swift.String], locationDatas: [NBAssetDataCollectLib.LocationData])
   func getUnUploadedDataSize() -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   func getLastUnUploadRecordData() -> NBAssetDataCollectLib.UnReportLocationData?
+  #endif
   func forceReport()
   func currentCacheTableName() -> Swift.String
 }
@@ -38,7 +42,9 @@ public class AssetCollectConfig {
   public var interval: Swift.Int
   public init(cacheCount: Swift.Int = DEFAULT_CACHE_COUNT, maxCacheCount: Swift.Int = DEFAULT_MAX_CACHE_COUNT, interval: Swift.Int = DEFAULT_INTERVAL)
   public func update(cacheCount: Swift.Int, maxCacheCount: Swift.Int, interval: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getClassFromString(_ classString: Swift.String) -> Swift.AnyClass?
+  #endif
   @objc deinit
 }
 public typealias StringDictionary = [Swift.String : Swift.String]
@@ -57,7 +63,9 @@ public typealias JSONDictionary = [Swift.String : Any]
   convenience public init(json: NBAssetDataCollectLib.JSONDictionary)
   public func toJSONDictionary() -> NBAssetDataCollectLib.JSONDictionary
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc public class SimpleLocation : ObjectiveC.NSObject, Foundation.NSSecureCoding {
@@ -68,13 +76,17 @@ public typealias JSONDictionary = [Swift.String : Any]
   convenience public init(json: NBAssetDataCollectLib.JSONDictionary)
   public func toJSONDictionary() -> NBAssetDataCollectLib.JSONDictionary
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public class UnReportLocationData {
   final public let recordNames: [Swift.String]
   public var locationData: [NBAssetDataCollectLib.LocationData]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(recordName: [Swift.String], locationData: [NBAssetDataCollectLib.LocationData]?)
+  #endif
   public func isDataValid() -> Swift.Bool
   @objc deinit
 }
@@ -85,7 +97,9 @@ public class UnReportLocationData {
 }
 public class NBAssetData {
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initSdk(_ assetCollectConfig: NBAssetDataCollectLib.AssetCollectConfig, assetCollect: (any NBAssetDataCollectLib.AssetCollect)?, delegate: (any NBAssetDataCollectLib.AssetCollectDelegate)?)
+  #endif
   public func shouldAllowNewAssetIdBind() -> Swift.Bool
   public func getRemainingDataSize() -> Swift.Int
   public func getRemainingLocationsCount() -> Swift.Int
@@ -94,8 +108,12 @@ public class NBAssetData {
   public func onDataReportSuccess(_ recordNames: [Swift.String])
   public func onDataReportFail()
   public func cleanCacheData()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getLastUnReportAssetData() -> NBAssetDataCollectLib.UnReportLocationData?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getAssetCollectConfig() -> NBAssetDataCollectLib.AssetCollectConfig?
+  #endif
   public func setAssetCollectConfig(assetCollectConfig: NBAssetDataCollectLib.AssetCollectConfig)
   public func outOfRerouteDate() -> Swift.Bool
   public func report()
@@ -130,6 +148,8 @@ extension NBAssetDataCollectLib.AssetCollectionImp : NBAssetDataCollectLib.Asset
   public func deleteAll()
   public func shouldReport(recordNames: [Swift.String], locationDatas: [NBAssetDataCollectLib.LocationData])
   public func getUnUploadedDataSize() -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getLastUnUploadRecordData() -> NBAssetDataCollectLib.UnReportLocationData?
+  #endif
   public func forceReport()
 }
